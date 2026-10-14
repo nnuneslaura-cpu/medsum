@@ -9,3 +9,8 @@ Uma pasta por edição (data do domingo de fechamento). Não publicar este ramo 
 - `render.js`: transforma o HTML em PNG com Playwright.
 Imagens publicadas em `AAAA-MM-DD/` e usadas pelo endereço
 `https://raw.githubusercontent.com/nnuneslaura-cpu/medsum/radar-imagens/AAAA-MM-DD/<arquivo>.png`.
+
+## Questão da semana
+Cada edição guarda em `AAAA-MM-DD/questao.json` a questão usada (id no banco MedSum, gabarito, comentário e bônus).
+A edição seguinte abre a seção "Resolução da semana passada" com esse arquivo e não repete questões já usadas.
+O e-mail usa `{{NOME}}` na saudação; o script de envio (Apps Script) troca pelo primeiro nome de cada inscrito.

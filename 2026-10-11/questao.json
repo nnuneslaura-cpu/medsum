@@ -1,0 +1,11 @@
+{
+  "edicao": 1,
+  "id_banco": "usp-2025-q08",
+  "banca": "USP 2025 (Prova A1, questão 8)",
+  "pergunta_resumo": "Homem, 52 anos, IC com FEVE 35% no início; após 1 ano de terapia otimizada (sacubitril/valsartana, carvedilol, espironolactona, empagliflozina, furosemida): NYHA I, FEVE 54%. Conduta?",
+  "gabarito": "D",
+  "gabarito_texto": "Manter os medicamentos e as doses atuais.",
+  "comentario": "A melhora da FEVE com o tratamento é, na maioria dos casos, remissão funcional e não cura. A Diretriz Brasileira de IC 2026 recomenda manter a terapia medicamentosa otimizada para preservar o remodelamento reverso e evitar recaída (no TRED-HF, cerca de 40% recaíram após suspender). PA 98x64, FC 52, creatinina e potássio estáveis não exigem redução de dose.",
+  "bonus": "Pela SBC 2026: IC em remissão (FEVE inicial < 50%, aumento ≥ 10 pontos, FEVE final > 50%, NYHA I–II). Ainda não é IC recuperada, que exige FEVE > 50% sustentada por ≥ 12 meses, NYHA I e NT-proBNP normal.",
+  "fonte": "Diretriz Brasileira de Insuficiência Cardíaca 2026 (SBC), seções 2.6 e 6.1"
+}
