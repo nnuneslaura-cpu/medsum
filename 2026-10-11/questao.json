@@ -7,5 +7,19 @@
   "gabarito_texto": "Manter os medicamentos e as doses atuais.",
   "comentario": "A melhora da FEVE com o tratamento é, na maioria dos casos, remissão funcional e não cura. A Diretriz Brasileira de IC 2026 recomenda manter a terapia medicamentosa otimizada para preservar o remodelamento reverso e evitar recaída (no TRED-HF, cerca de 40% recaíram após suspender). PA 98x64, FC 52, creatinina e potássio estáveis não exigem redução de dose.",
   "bonus": "Pela SBC 2026: IC em remissão (FEVE inicial < 50%, aumento ≥ 10 pontos, FEVE final > 50%, NYHA I–II). Ainda não é IC recuperada, que exige FEVE > 50% sustentada por ≥ 12 meses, NYHA I e NT-proBNP normal.",
-  "fonte": "Diretriz Brasileira de Insuficiência Cardíaca 2026 (SBC), seções 2.6 e 6.1"
+  "fonte": "Diretriz Brasileira de Insuficiência Cardíaca 2026 (SBC), seções 2.6 e 6.1",
+  "tema": "Insuficiência cardíaca",
+  "enunciado": "Paciente do sexo masculino, 52 anos, com insuficiência cardíaca com FEVE de 35% no início do acompanhamento, sem etiologia conhecida após investigação inicial. Em tratamento desde a primeira consulta: furosemida 20 mg/dia, sacubitril/valsartana 200 mg 2x/dia, carvedilol 25 mg 2x/dia, espironolactona 25 mg/dia e empagliflozina 10 mg/dia. Após 1 ano, está em classe funcional I (NYHA), PA 98x64 mmHg, FC 52 bpm, e o ecocardiograma recente mostra FEVE de 54%. Creatinina 1,57 mg/dL (TFG 53 mL/min) e potássio 4,9 mEq/L em meses consecutivos. Qual é a conduta farmacológica adequada?",
+  "alternativas": {
+    "A": "Reduzir dose de sacubitril/valsartana e carvedilol.",
+    "B": "Suspender a terapia específica de IC de FEVE reduzida.",
+    "C": "Trocar sacubitril/valsartana por hidralazina/isossorbida.",
+    "D": "Manter os medicamentos e as doses atuais."
+  },
+  "por_que_nao": {
+    "A": "PA 98x64 e FC 52 sem sintomas não exigem redução: as doses-alvo é que sustentam o remodelamento reverso.",
+    "B": "Suspender é o erro clássico: a melhora da FEVE costuma ser remissão, não cura, e a recaída é frequente após a retirada.",
+    "C": "Hidralazina/isossorbida não substitui o INRA; é terapia adicional em casos selecionados."
+  },
+  "bonus_pergunta": "Pela SBC 2026, como esse paciente passa a ser classificado?"
 }
