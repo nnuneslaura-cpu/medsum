@@ -1,0 +1,25 @@
+{
+  "edicao": 2,
+  "id_banco": "unifesp-2026-q34",
+  "banca": "UNIFESP 2026 (R1, questão 34)",
+  "pergunta_resumo": "Homem, 68 anos, DM2 e HAS, TFG 50 e RAC 400 mg/g em uso de enalapril 40 mg, anlodipino e metformina; iniciada dapagliflozina. Após 4 semanas, TFG 44, potássio 4,2, assintomático. Conduta?",
+  "gabarito": "A",
+  "gabarito_texto": "Manter todas as medicações em uso atual e reavaliar em próxima consulta.",
+  "comentario": "Depois de iniciar o iSGLT2 é esperada uma queda inicial da TFG (aqui, cerca de 12%), por vasoconstrição da arteríola aferente mediada pelo feedback tubuloglomerular. É uma queda hemodinâmica e reversível, ligada à proteção renal a longo prazo, então o iSGLT2 é mantido. O rascunho KDIGO 2027 reforça: depois de iniciado, o iSGLT2 continua mesmo se a TFG cair abaixo de 20, até a terapia renal substitutiva. Observação: com TFG 30–44, a KDIGO recomenda reduzir a metformina para até 1.000 mg/dia, ajuste que não muda o gabarito entre as opções.",
+  "por_que_nao": {
+    "B": "Suspender o iSGLT2 é o erro clássico: a queda inicial da TFG é esperada e não indica lesão renal.",
+    "C": "A metformina só é suspensa com TFG abaixo de 30; com TFG 30–44 a dose é reduzida, não retirada.",
+    "D": "O IECA faz parte da nefroproteção e o potássio está normal: não há motivo para suspender."
+  },
+  "bonus_pergunta": "Pelo rascunho KDIGO 2027, esse paciente também teria indicação de finerenona?",
+  "bonus": "Sim. Ele tem DM2, TFG ≥ 25, potássio normal (4,2) e albuminúria persistente (RAC 400 mg/g) apesar de IECA em dose máxima (enalapril 40 mg/dia): no rascunho KDIGO 2027 a finerenona é recomendação forte (1A) nesse cenário. Depois de iniciar, dosar o potássio em 2–4 semanas.",
+  "fonte": "KDIGO 2027 · atualização focada de DRC (rascunho em consulta pública até 04/11/2026); KDIGO 2024 (avaliação e manejo da DRC) e KDIGO 2022 (diabetes na DRC)",
+  "tema": "Doença renal crônica",
+  "enunciado": "Homem, 68 anos de idade, com diagnóstico de diabetes mellitus do tipo 2 e hipertensão há 20 anos, compensado clinicamente, vem em consulta de rotina, sem queixas. Exame físico: PA = 128/82 mmHg, sem outras alterações. Exames laboratoriais: creatinina = 1,50 mg/dL (TFGe por CKD-EPI = 50 mL/min/1,73m²), ureia = 42 mg/dL, sódio = 138 mEq/L, potássio = 4,2 mEq/L, glicemia de jejum = 102 mg/dL, HbA1c = 6,2%; urina 1: pH = 5,5, densidade = 1015, proteína +, hematúria ausente, glicosúria ausente; relação albumina/creatinina em amostra isolada de urina = 400 mg/g. Faz uso de enalapril 40 mg/dia, anlodipino 10 mg/dia, metformina 2000 mg/dia. Foi iniciada dapagliflozina 10 mg/dia. Após 4 semanas, o paciente retorna em consulta, assintomático, sem queixas ou intercorrências no período, trazendo novos exames: creatinina = 1,67 mg/dL (TFGe por CKD-EPI = 44 mL/min/1,73m²), ureia = 40 mg/dL, sódio = 138 mEq/L, potássio = 4,2 mEq/L. Qual é a conduta mais adequada?",
+  "alternativas": {
+    "A": "Manter todas as medicações em uso atual e reavaliar em próxima consulta.",
+    "B": "Manter as medicações em uso prévio e suspender dapagliflozina.",
+    "C": "Suspender a metformina e manter a dapagliflozina.",
+    "D": "Suspender o enalapril e manter a dapagliflozina."
+  }
+}
