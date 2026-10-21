@@ -2,7 +2,7 @@
 import os, subprocess, json, html as H, re
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-SAIDA = os.path.join(AQUI, 'saida', 'folhas'); os.makedirs(SAIDA, exist_ok=True)
+SAIDA = os.path.join(AQUI, 'saida', os.environ.get('PASTA','folhas')); os.makedirs(SAIDA, exist_ok=True)
 LOGO = '/home/user/medsum/marca/logo-ms-vinho.png'
 
 CSS = """
@@ -65,7 +65,7 @@ def render(nome, f):
     secs = ''.join(f'<div class="sec"><h2><i>{i+1}</i>{H.escape(t)}{f" <small>{H.escape(n)}</small>" if n else ""}</h2>{h}</div>'
                    for i, (t, n, h) in enumerate(f['secoes']))
     lado = ''.join(f'<li>{md(x)}</li>' for x in f['lado'])
-    doc = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>{CSS}</style></head><body>
+    doc = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>{CSS}{f.get('css','')}</style></head><body>
 <header><div><span class="selo">REVISE PARA PROVA · SEU RESUMO EM UMA ÚNICA FOLHA</span><h1>{H.escape(f['titulo'])}</h1><p class="sub">{md(f['sub'])}</p></div><img src="file://{LOGO}" alt=""></header>
 <div class="mais"><span>MAIS<br>COBRADO</span>{mais}</div>
 <div class="grid"><div>{secs}</div><div><div class="lado"><div class="cab"><b>{H.escape(f['lado_tit'])}</b><span>{H.escape(f['lado_sub'])}</span></div><ol>{lado}</ol></div>
