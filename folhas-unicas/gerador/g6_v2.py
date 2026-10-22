@@ -216,7 +216,7 @@ render(D1 + 'SP 1.4 · Emergências obstétricas - eclâmpsia, HPP, DPP e compro
 
 # ======================= 6. DIABETES MELLITUS (A) =======================
 render(D2 + 'SP 2.1 · Diabetes Mellitus - resumo em 1 folha', dict(layout='A', titulo='Diabetes Mellitus',
- sub='Diagnóstico, DM1 × DM2, tratamento do DM2, insulina e metas (SBD 2026)', vars='--fs:7.6pt;--lh:1.46;--gap:2.9mm',
+ sub='Diagnóstico, DM1 × DM2, tratamento do DM2, insulina e metas (SBD 2026)', vars='--fs:7.7pt;--lh:1.48;--gap:3mm',
  corpo=f'''<div class="gL"><div>
 {sec('Diagnóstico (mg/dL)', '''<table><tr><th>Exame</th><th>Normal</th><th>Pré-DM</th><th>DM</th></tr>
 <tr><td>Glicemia de jejum</td><td>&lt; 100</td><td>100–125</td><td>≥ 126</td></tr>
@@ -236,19 +236,21 @@ render(D2 + 'SP 2.1 · Diabetes Mellitus - resumo em 1 folha', dict(layout='A', 
 <li>Reavaliar a cada 3 meses: dupla → tripla → quádrupla → insulina. Muito sintomático (insulinopenia) → insulina já</li>
 <li>Não associar AR GLP-1, tirzepatida e iDPP-4 entre si · SUS: metformina → sulfonilureia → dapagliflozina; insulina se HbA1c &gt; 9% ou GJ ≥ 300</li></ul>''')}
 {sec('Insulina', '<ul><li><b>DM1</b>: basal-bolus desde o diagnóstico, 0,4–1,0 U/kg/dia (basal 30–50%). Fator de sensibilidade = 1.800 ÷ dose total; relação insulina/carboidrato = 400 ÷ dose total</li><li><b>DM2</b>: NPH ao deitar 10 U ou 0,1–0,2 U/kg, mantendo os orais; +2 U a cada 3 dias até jejum 80–130. Basal &gt; 0,5 U/kg/dia = excesso de basal</li></ul>')}
+{sec('Complicações crônicas', '<p>Rastreio anual de <b>retina</b> (fundo de olho com pupila dilatada), <b>rim</b> (albumina/creatinina urinária + TFG), <b>nervo</b> (monofilamento 10 g, diapasão 128 Hz) e <b>pé</b>: no DM1, 5 anos após o diagnóstico; no DM2, já ao diagnóstico (8–16% já têm retinopatia). Cair 10% na HbA1c reduz a retinopatia em 40%.</p>')}
 </div><div>
 {nc(['Uma glicemia ao acaso ≥ 200 só basta com sintomas.', 'Adulto magro com início abrupto pode ser DM1 (ou LADA).', 'Suspeita de DM1 ou CAD: insulina sem esperar anticorpos.', 'iSGLT2 entra pelo risco cardiorrenal, não pela HbA1c.', 'DM2 rastreia retina, rim e nervo já ao diagnóstico; DM1 após 5 anos.', 'Metformina para com TFG &lt; 30.'])}
-{mn([('Os 4 P', '<b>P</b>oliúria, <b>P</b>olidipsia, <b>P</b>olifagia e <b>P</b>erda de peso.'), ('Fez 35, rastreia', 'rastreio universal a partir dos 35 anos.'), ('Peptídeo C abaixo de 0,6: a fábrica fechou', 'deficiência grave de insulina (DM1).'), ('MODY é de família: 3 gerações antes dos 25', ''), ('1.800 corrige, 400 come', 'fator de sensibilidade e relação insulina/carboidrato.')])}
+{mn([('Os 4 P', '<b>P</b>oliúria, <b>P</b>olidipsia, <b>P</b>olifagia e <b>P</b>erda de peso.'), ('Fez 35, rastreia', 'rastreio universal a partir dos 35 anos.'), ('Peptídeo C abaixo de 0,6: a fábrica fechou', 'deficiência grave de insulina (DM1).'), ('1.800 corrige, 400 come', 'fator de sensibilidade e relação insulina/carboidrato.')])}
+{card('Efeito colateral que cai', '<ul><li><b>iSGLT2</b>: infecção geniturinária, CAD euglicêmica</li><li><b>AR GLP-1</b>: gastrointestinal; contraindicado no carcinoma medular de tireoide</li><li><b>Sulfonilureia</b>: hipoglicemia e ganho de peso</li><li><b>Pioglitazona</b>: retenção hídrica, IC, fraturas</li><li><b>Saxagliptina</b>: mais internação por IC · <b>metformina</b>: B12</li></ul>')}
 {box('Metas (adulto)', '<p>HbA1c &lt; 7% (idoso saudável &lt; 7,5; comprometido &lt; 8)<br>Jejum 80–130 · 2 h pós &lt; 180<br>Tempo no alvo &gt; 70% · &lt; 70 mg/dL: &lt; 4%<br>HbA1c 7% ≈ glicemia média 154</p>')}
 </div></div>''',
  fontes='Elaborado pela MedSum com base no resumo de diabetes mellitus do 8º semestre, revisado em 20/10/2026 (SBD 2026; PCDT DM2 2026; ADA Standards of Care 2026; Guyton & Hall).'))
 
 # ======================= 7. EMERGÊNCIAS NO DIABETES (C) =======================
 render(D2 + 'SP 2.2 · Emergências no diabetes - resumo em 1 folha', dict(layout='C', titulo='Emergências no Diabetes',
- sub='Cetoacidose, CAD euglicêmica, estado hiperosmolar e hipoglicemia (SBD 2026)', vars='--fs:7.85pt;--lh:1.47;--gap:3.1mm',
+ sub='Cetoacidose, CAD euglicêmica, estado hiperosmolar e hipoglicemia (SBD 2026)', css='.cd .n{font-size:12.5pt}', vars='--fs:7.75pt;--lh:1.46;--gap:3mm',
  corpo=f'''
-<div class="sec">{cards([('CAD', '&gt; 200 · pH &lt; 7,3', 'HCO₃⁻ &lt; 15 e cetonemia ≥ 3 mmol/L'), ('Hiperosmolar (EHH)', '&gt; 600 · Osm &gt; 320', 'pH &gt; 7,3, HCO₃⁻ &gt; 15, cetonemia &lt; 3'), ('CAD euglicêmica', '&lt; 200', 'pH &lt; 7,3, HCO₃⁻ &lt; 18; iSGLT2'), ('Hipoglicemia', '&lt; 70', 'nível 2 &lt; 54 · nível 3 precisa de ajuda')])}</div>
-<div class="sec"><h2>O passo a passo da CAD</h2>{passos([('Hidratar', 'SF 0,9% 15–20 mL/kg na 1ª hora; depois Na⁺ corrigido &lt; 150 → SF 0,9%; ≥ 150 → NaCl 0,45% (250–500 mL/h)'), ('Potássio', '<b>&lt; 3,3: não iniciar insulina</b>, repor · 3,3–5,2: 10–20 mEq por litro · &gt; 5,2: não repor, checar 2/2 h'), ('Insulina', 'regular IV 0,1 U/kg/h (bolus opcional); glicemia deve cair 50–70 mg/dL/h'), ('Glicose', 'glicemia 200–250 → SG 5% e insulina 0,02–0,05 U/kg/h; <b>não desligar</b> até resolver a cetose')])}</div>
+<div class="sec">{cards([('CAD', 'glicemia &gt; 200', 'pH &lt; 7,3 e/ou HCO₃⁻ &lt; 15; cetonemia ≥ 3 mmol/L'), ('Hiperosmolar (EHH)', 'glicemia &gt; 600', 'Osm efetiva &gt; 320; pH &gt; 7,3, cetonemia &lt; 3'), ('CAD euglicêmica', 'glicemia &lt; 200', 'pH &lt; 7,3, HCO₃⁻ &lt; 18; principal causa: iSGLT2'), ('Hipoglicemia', 'glicemia &lt; 70', 'nível 2 &lt; 54 · nível 3 precisa de ajuda')])}</div>
+<div class="sec"><h2>O passo a passo da CAD</h2>{passos([('Hidratar', 'SF 0,9% 15–20 mL/kg na 1ª hora; depois Na⁺ corrigido &lt; 150 → SF 0,9%; ≥ 150 → NaCl 0,45% (250–500 mL/h)'), ('Potássio', '<span class="k">&lt; 3,3: não iniciar insulina</span>, repor · 3,3–5,2: 10–20 mEq por litro · &gt; 5,2: não repor, checar 2/2 h'), ('Insulina', 'regular IV 0,1 U/kg/h (bolus opcional); glicemia deve cair 50–70 mg/dL/h'), ('Glicose', 'glicemia 200–250 → SG 5% e insulina 0,02–0,05 U/kg/h; <span class="k">não desligar</span> até resolver a cetose')])}</div>
 <div class="g2"><div>
 {sec('CAD × EHH', '''<table><tr><th></th><th>CAD</th><th>EHH</th></tr>
 <tr><td>Instalação</td><td>Horas a dias; DM1 jovem</td><td>Dias a semanas; DM2 idoso</td></tr>
@@ -257,7 +259,8 @@ render(D2 + 'SP 2.2 · Emergências no diabetes - resumo em 1 folha', dict(layou
 <tr><td>Insulina</td><td>0,1 U/kg/h</td><td>0,05 U/kg/h, sem bolus; glicose com 250–300</td></tr>
 <tr><td>Mortalidade</td><td>&lt; 1%</td><td>10–20%</td></tr></table>''')}
 {sec('As contas', '<ul><li><b>AG</b> = Na⁺ − (Cl⁻ + HCO₃⁻); normal 4–12</li><li><b>Na⁺ corrigido</b> = Na⁺ + 1,6 × (glicemia − 100) ÷ 100 (fator 2,4 se glicemia &gt; 400)</li><li><b>Osm efetiva</b> = 2 × Na⁺ + glicemia ÷ 18; &gt; 320 define EHH; coma com Osm &lt; 320 → procure outra causa</li></ul>')}
-{sec('Detalhes que caem', '<ul><li>Bicarbonato só se pH &lt; 6,9 · fosfato só se &lt; 1 mg/dL, anemia, ICC ou hipóxia</li><li>Resolução: alerta, comendo, acidose e cetose resolvidas → basal-bolus SC e manter a IV 1–2 h (≥ 2 h com regular); evitar degludeca</li><li><b>Edema cerebral</b> nas primeiras 12 h: cefaleia, confusão, tríade de Cushing → manitol 0,25–0,5 g/kg</li><li><b>CAD-E</b>: suspender o iSGLT2 e dar glicose desde o início; não deixar a glicemia cair abaixo de 200</li></ul>')}
+{sec('Detalhes que caem', '<ul><li>Bicarbonato só se pH &lt; 6,9 · fosfato só se &lt; 1 mg/dL, anemia, ICC ou hipóxia</li><li>Resolução: alerta, comendo, acidose e cetose resolvidas → basal-bolus SC e manter a IV 1–2 h (≥ 2 h com regular); evitar degludeca</li><li><b>Edema cerebral</b> nas primeiras 12 h: cefaleia, confusão, tríade de Cushing → manitol 0,25–0,5 g/kg</li><li><b>CAD-E</b>: suspender o iSGLT2 e dar glicose desde o início; não deixar a glicemia cair abaixo de 200</li><li><b>Cetonemia</b>: &lt; 0,6 nada · 0,6–1,5 manejo em casa · 1,6–3,0 CAD iminente, hospital · &gt; 3,0 protocolo de CAD</li></ul>')}
+{sec('EHH: o que muda', '<p>Perda de água maior (100–220 mL/kg): SF 0,9% 15–20 mL/kg na 1ª–2ª h, depois 10–14 mL/kg/h. Glicemia cai no máximo 90–120 mg/dL/h e a osmolalidade 3–8 mOsm/kg/h (risco de edema cerebral e mielinólise pontina). Manter glicemia 200–300 até Osm &lt; 315, paciente alerta e comendo.</p>')}
 </div><div>
 {sec('Hipoglicemia', '<ul><li>Nível 1 (54–69): <b>15 g</b> de carboidrato rápido (1 colher de sopa de açúcar, 150 mL de suco) e repetir a glicemia em 15 min</li><li>Nível 2 (&lt; 54), consciente: 30 g (PCDT) · nível 3: <b>glucagon</b>; nunca insulina</li><li>Com acarbose, só glicose pura · depois, lanche (risco de recorrência)</li></ul>')}
 {nc(['K⁺ normal na admissão não é estoque normal: déficit de 3–6 mmol/kg.', 'Cetonúria engana: mede só acetoacetato e “piora” com o tratamento.', 'Acidose hiperclorêmica após muito SF não é CAD persistente.', 'Bicarbonato não é rotina.', 'Leucocitose &gt; 25 mil sugere infecção, não só CAD.'])}
