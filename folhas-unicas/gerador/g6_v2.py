@@ -70,7 +70,6 @@ render(D1 + 'SP 1.1 · Bloqueios no ECG - resumo em 1 folha', dict(layout='C', t
 <li><b>2:1</b> não define o tipo (não dá para ver o PR crescer) · <b>3:1</b> é sempre tipo II</li>
 <li><b>Avançado</b>: no mesmo traçado, períodos de tipo II e de BAVT</li>
 <li><b>BAVT</b>: RR regular e lento (escape ~40 bpm), FC atrial &gt; ventricular e não múltipla; QRS largo se o escape é abaixo da bifurcação do His</li></ul>''')}
-{sec('Bloqueio sinoatrial', '<p>Pausa sem P de ≈ <b>dobro</b> do ciclo normal, com frequência de base constante. Tipo II (mais comum): falha = múltiplo do PP · tipo I: PP encurta até a falha. Faz parte da doença do nó sinusal; não é parada sinusal.</p>')}
 {nc(['2:1 não diz se é Mobitz I ou II.', 'RR irregular não é BAVT: pense em BAV parcial.', 'Bloqueio sinoatrial não é parada sinusal.', 'rSr′ com QRS estreito não é BRD completo.', 'BDPI só depois de excluir SVD e biotipo longilíneo.'])}
 </div><div>
 {sec('Ramos', '''<table><tr><th></th><th>BRD</th><th>BRE</th></tr>
@@ -82,6 +81,7 @@ render(D1 + 'SP 1.1 · Bloqueios no ECG - resumo em 1 folha', dict(layout='C', t
 <li><b>BDPI</b>: rS em D1, qR inferior (R3 &gt; R2); excluir SVD, longilíneo, área inativa lateral</li>
 <li><b>BDAM</b>: R crescente V1 &lt; V2 &lt; V3, eixo normal; raro</li>
 <li><b>BRD + BDAS</b>: associação comum; manifestação inicial frequente na <span class="k">doença de Chagas</span> · BRD + BDPI: rara</li></ul>''')}
+{sec('Bloqueio sinoatrial', '<p>Pausa sem P de ≈ <b>dobro</b> do ciclo normal, com frequência de base constante. Tipo II (mais comum): falha = múltiplo do PP · tipo I: PP encurta até a falha. Faz parte da doença do nó sinusal; não é parada sinusal.</p>')}
 {mn([('Wenckebach avisa, Mobitz II não', 'PR cresce até cair × PR fixo e a P cai de repente.'), ('BAVT é divórcio', 'P e QRS, cada um no seu ritmo.'), ('Três para um é sempre dois', 'BAV 3:1 é sempre Mobitz II.'), ('BRD faz M em V1; BRE ergue torre em V6', ''), ('Anterossuperior aponta para cima', 'BDAS: eixo além de −30°.')])}
 </div></div>''',
  fontes='Elaborado pela MedSum com base no resumo de bloqueios no ECG do 8º semestre (Friedmann, Eletrocardiograma em 7 aulas). Traçados: desenho esquemático.'))

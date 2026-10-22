@@ -192,7 +192,8 @@ render(S1 + 'SP 1.3 · Transtornos psicóticos - resumo em 1 folha', dict(layout
 <li><b>Clozapina:</b> única eficaz na <b>resistente</b> e reduz suicídio; <b>agranulocitose</b> → hemograma</li>
 <li><b>Depósito (LAI)</b> para quem não adere · <b>biperideno</b> corrige extrapiramidal · benzo na agitação/catatonia</li>
 <li><b>Síndrome neuroléptica maligna:</b> rigidez, febre, confusão, instabilidade autonômica</li></ul>''')}
-{mn([('Breve, Forme, Fenia: 1 mês e 6 meses', 'os dois cortes de tempo.'), ('Mesolímbica é Mais, Mesocortical é Menos', 'positivos por excesso, negativos por falta de dopamina.'), ('Tubero tira o freio do leite', 'bloqueio D2 sobe a prolactina.'), ('Clozapina cura a resistente e cobra o hemograma', ''), ('Atípico troca o tremor pela balança', 'menos extrapiramidal, mais síndrome metabólica.')])}
+{mn([('Breve, Forme, Fenia: 1 mês e 6 meses', 'os dois cortes de tempo.'), ('Mesolímbica é Mais, Mesocortical é Menos', 'positivos por excesso, negativos por falta de dopamina.'), ('Tubero tira o freio do leite', 'bloqueio D2 sobe a prolactina.'), ('Clozapina cura a resistente e cobra o hemograma', ''), {card('Além da dopamina', '<p>↓ interneurônios <b>GABA</b> soltam a dopamina · <b>5-HT2A</b>: seu bloqueio melhora sintomas · ACh/nicotina: déficit cognitivo, por isso tanto <b>tabagismo</b> (automedicação) · infecção intrauterina e idade paterna avançada aumentam o risco.</p>')}
+('Atípico troca o tremor pela balança', 'menos extrapiramidal, mais síndrome metabólica.')])}
 </div></div>''',
  fontes='Elaborado pela MedSum com base no resumo de transtornos psicóticos, esquizofrenia e antipsicóticos do 6º semestre (DSM-5; Sadock; Golan; Rang &amp; Dale; Ministério da Saúde).'))
 
@@ -209,7 +210,6 @@ render(S1 + 'SP 1.4 · Transtorno bipolar - resumo em 1 folha', dict(layout='C',
 {sec('Diferenciais e exames', '''<ul><li><b>TDAH:</b> crônico desde a infância · <b>borderline:</b> instável e reativo, não episódico · <b>ansiedade:</b> contínua · <b>DDHM</b> (criança): irritabilidade crônica</li>
 <li>Induzido: cocaína, anfetamina, corticoide, antidepressivo, L-dopa · início tardio → procure causa médica</li>
 <li>Pedir: hemograma, TSH/T4, função renal e hepática, eletrólitos, sorologias (HIV, sífilis), toxicológico, imagem</li></ul>''')}
-{sec('Fisiopatologia', '<p>DA e NE ↑ na mania e ↓ na depressão; glutamato (NMDA) hiperativo; ↓ GABA; ↓ BDNF; eixo HHS ↑. Imagem: menos substância cinzenta no cíngulo anterior e ínsula, ventrículos maiores.</p>')}
 {sec('O que não usar', '''<ul><li><b>Antidepressivo em monoterapia</b> (ISRS, IRSN, tricíclico, bupropiona): virada e ciclagem rápida; se precisar, sempre com estabilizador</li>
 <li><b>Tricíclicos:</b> altíssimo risco de virada · <b>IRSN:</b> mais virada que ISRS</li>
 <li><b>Estimulantes</b> (metilfenidato, anfetamina): podem precipitar mania ou psicose</li>
@@ -224,6 +224,7 @@ render(S1 + 'SP 1.4 · Transtorno bipolar - resumo em 1 folha', dict(layout='C',
 <li>Fases: aguda → continuação (4–9 meses) → manutenção (anos)</li></ul>''')}
 {nc(['Antidepressivo sozinho no bipolar: nunca (virada e ciclagem).', 'Tipo II não é "mais leve" que o tipo I.', 'Hipomania com psicose ou internação já é mania.', 'Benzodiazepínico só como ponte na agitação ou insônia.'])}
 {mn([('Mania dura a semana; hipomania, um feriadão', '7 dias × 4 dias.'), ('Uma mania basta para o tipo I', ''), ('Lítio cobra do rim e da tireoide', 'poliúria, DI nefrogênico, hipotireoidismo.'), ('Carbamazepina carrega as enzimas e leva o sódio', 'indutor do CYP3A4 e SIADH.'), ('Lamotrigina, olho na pele', 'Stevens-Johnson.'), ('Valproato vai ao fígado e ao tubo neural', '')])}
+{sec('Fisiopatologia', '<p>DA e NE ↑ na mania e ↓ na depressão; glutamato (NMDA) hiperativo; ↓ GABA; ↓ BDNF; eixo HHS ↑. Imagem: menos substância cinzenta no cíngulo anterior e ínsula, ventrículos maiores.</p>')}
 </div></div>''',
  fontes='Elaborado pela MedSum com base no resumo de transtornos bipolares e estabilizadores de humor do 6º semestre (DSM-5; Sadock; Tratado da ABP; Porto).'))
 
