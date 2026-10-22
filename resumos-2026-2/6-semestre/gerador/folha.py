@@ -70,7 +70,7 @@ def render(nome, f):
 <div class="mais"><span>MAIS<br>COBRADO</span>{mais}</div>
 <div class="grid"><div>{secs}</div><div><div class="lado"><div class="cab"><b>{H.escape(f['lado_tit'])}</b><span>{H.escape(f['lado_sub'])}</span></div><ol>{lado}</ol></div>
 <div class="conta"><b class="t">{H.escape(f['conta_tit'])}</b>{f['conta_html']}</div></div></div>
-<footer><span>{md(f['fontes'])}</span><b>MEDSUM · @medsum.store</b></footer></body></html>"""
+<footer><span>{md(f['fontes'])}</span><b>MEDSUM · @medsum.oficial</b></footer></body></html>"""
     src = os.path.join(SAIDA, nome + '.html'); open(src, 'w').write(doc)
     pdf = os.path.join(SAIDA, nome + '.pdf'); png = os.path.join(SAIDA, nome + '.png')
     js = f"""const {{chromium}}=require('playwright');(async()=>{{const b=await chromium.launch({{executablePath:'/opt/pw-browsers/chromium'}});
