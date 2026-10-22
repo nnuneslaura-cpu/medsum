@@ -61,7 +61,7 @@ render(H + 'RPC em ritmos chocáveis' + F, dict(layout='B', titulo='RCP em Ritmo
  sub='FV e TV sem pulso · choque, drogas, via aérea, equipe e pós-PCR', vars='--fs:8.35pt;--lh:1.52;--gap:3.5mm',
  corpo=f'''<div class="gB"><div>
 {card('O algoritmo', FLX_RCP)}
-{nc(['Adrenalina só depois do 2º choque; antiarrítmico só depois do 3º.', 'Depois do choque, não cheque pulso: volta a comprimir na hora.', 'ETCO₂ salta para &gt; 35–40 mmHg = RCE: pare e cheque o pulso.', 'ETCO₂ &lt; 10 mmHg = compressão ruim: melhore a RCP.', 'Supra de ST após RCE vai ao cateterismo mesmo em coma.', 'Magnésio só na torsades (QT longo), 1–2 g.'])}
+{nc(['Adrenalina só depois do 2º choque; antiarrítmico só depois do 3º.', 'Depois do choque, não cheque pulso: volta a comprimir na hora.', 'ETCO₂ sobe de repente e se mantém (em geral ≥ 40 mmHg) = RCE: pare e cheque o pulso.', 'ETCO₂ &lt; 10 mmHg = compressão ruim: melhore a RCP.', 'Supra de ST após RCE vai ao cateterismo mesmo em coma.', 'Magnésio só na torsades (QT longo), 1–2 g.'])}
 {card('Equipe', '''<p><b>Líder</b> ao pé do leito, sem procedimento · <b>via aérea</b> na cabeceira · <b>compressores</b> trocam a cada 2 min · <b>medicação</b> e acesso · <b>desfibrilador</b>, cronômetro e anotação.</p>
 <p>Alça fechada: cita o nome, ordem clara, o outro repete e confirma.</p>''')}
 </div><div>
@@ -69,9 +69,9 @@ render(H + 'RPC em ritmos chocáveis' + F, dict(layout='B', titulo='RCP em Ritmo
 <li>Intubar sem parar as compressões por mais de 10 s; depois, <b>1 ventilação a cada 6 s</b> (10/min), compressões contínuas</li>
 <li>Tubo confirmado pela curva de capnografia em ≥ <b>7</b> ventilações</li>
 <li>ETCO₂ &lt; 10 após 20 min: chance muito baixa de sucesso</li></ul>''')}
-{card('Pós-PCR', '''<ul><li>VC até 6 mL/kg, PEEP 5, SpO₂ <b>92–98%</b>, PaCO₂ 35–45 (ETCO₂ 30–40)</li>
+{card('Pós-PCR', '''<ul><li>VC até 6 mL/kg, PEEP 5, SpO₂ <b>90–98%</b>, PaCO₂ 35–45 (ETCO₂ 30–40)</li>
 <li>PAS ≥ 90 ou <b>PAM ≥ 65</b> com cristaloide e noradrenalina</li>
-<li>Normotermia 36–37,4 °C por ≥ 24 h · glicemia 140–180 · corrigir K e Mg</li>
+<li>Temperatura 32–37,5 °C por ≥ 36 h se não obedece comandos · glicemia 70–180 (alvo usual 140–180) · corrigir K e Mg</li>
 <li>Passagem de caso SBAR · debriefing</li></ul>''')}
 {card('Relógio da PCR', '<p>Ciclo <b>2 min</b> · troca de compressor a cada 2 min · pausa <b>≤ 10 s</b> · adrenalina a cada <b>3–5 min</b>.</p>')}
 {mn([('5H', '<b>H</b>ipovolemia, <b>H</b>ipóxia, <b>H</b>idrogênio (acidose), <b>H</b>ipo/hipercalemia, <b>H</b>ipotermia.'), ('5T', '<b>T</b>ensão no tórax (pneumotórax), <b>T</b>amponamento, <b>T</b>oxinas, <b>T</b>rombose coronária, <b>T</b>rombose pulmonar.'), ('Choque, choque, adrenalina; choque, amiodarona', 'a ordem das drogas na FV/TV.'), ('Piorou no ventilador? DOPE', '<b>D</b>eslocamento, <b>O</b>bstrução, <b>P</b>neumotórax, <b>E</b>quipamento.'), ('Abaixo de 10, aperta melhor; pulou pra 40, procura o pulso', 'ETCO₂ na RCP.')])}

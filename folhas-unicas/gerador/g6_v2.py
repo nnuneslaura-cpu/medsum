@@ -67,7 +67,7 @@ render(D1 + 'SP 1.1 · Bloqueios no ECG - resumo em 1 folha', dict(layout='C', t
 {card('Os BAV no traçado (desenho esquemático)', tira('1º grau', S_1G, 'PR longo e igual') + tira('2º grau Mobitz I', S_M1, 'PR cresce até a P cair') + tira('2º grau Mobitz II', S_M2, 'PR fixo, P cai sem aviso') + tira('3º grau (BAVT)', S_TT, 'P e QRS sem relação'))}
 {sec('BAV: o que cai', '''<ul><li><b>Mobitz I</b> (Wenckebach): nodal, QRS estreito, RR variável; bom prognóstico, raramente vira BAVT</li>
 <li><b>Mobitz II</b>: pós-nodal/hissiano, bloqueio de ramo comum (mais o BRE); <span class="k">pode evoluir para BAVT</span></li>
-<li><b>2:1</b> não define o tipo (não dá para ver o PR crescer) · <b>3:1</b> é sempre tipo II</li>
+<li><b>2:1</b> não define o tipo (não dá para ver o PR crescer) · <b>3:1</b> (2 P seguidas bloqueadas) = BAV <b>avançado</b></li>
 <li><b>Avançado</b>: no mesmo traçado, períodos de tipo II e de BAVT</li>
 <li><b>BAVT</b>: RR regular e lento (escape ~40 bpm), FC atrial &gt; ventricular e não múltipla; QRS largo se o escape é abaixo da bifurcação do His</li></ul>''')}
 {nc(['2:1 não diz se é Mobitz I ou II.', 'RR irregular não é BAVT: pense em BAV parcial.', 'Bloqueio sinoatrial não é parada sinusal.', 'rSr′ com QRS estreito não é BRD completo.', 'BDPI só depois de excluir SVD e biotipo longilíneo.'])}
@@ -82,7 +82,7 @@ render(D1 + 'SP 1.1 · Bloqueios no ECG - resumo em 1 folha', dict(layout='C', t
 <li><b>BDAM</b>: R crescente V1 &lt; V2 &lt; V3, eixo normal; raro</li>
 <li><b>BRD + BDAS</b>: associação comum; manifestação inicial frequente na <span class="k">doença de Chagas</span> · BRD + BDPI: rara</li></ul>''')}
 {sec('Bloqueio sinoatrial', '<p>Pausa sem P de ≈ <b>dobro</b> do ciclo normal, com frequência de base constante. Tipo II (mais comum): falha = múltiplo do PP · tipo I: PP encurta até a falha. Faz parte da doença do nó sinusal; não é parada sinusal.</p>')}
-{mn([('Wenckebach avisa, Mobitz II não', 'PR cresce até cair × PR fixo e a P cai de repente.'), ('BAVT é divórcio', 'P e QRS, cada um no seu ritmo.'), ('Três para um é sempre dois', 'BAV 3:1 é sempre Mobitz II.'), ('BRD faz M em V1; BRE ergue torre em V6', ''), ('Anterossuperior aponta para cima', 'BDAS: eixo além de −30°.')])}
+{mn([('Wenckebach avisa, Mobitz II não', 'PR cresce até cair × PR fixo e a P cai de repente.'), ('BAVT é divórcio', 'P e QRS, cada um no seu ritmo.'), ('Duas P seguidas caíram? É avançado', 'BAV 3:1 ou pior = BAV de alto grau.'), ('BRD faz M em V1; BRE ergue torre em V6', ''), ('Anterossuperior aponta para cima', 'BDAS: eixo além de −30°.')])}
 </div></div>''',
  fontes='Elaborado pela MedSum com base no resumo de bloqueios no ECG do 8º semestre (Friedmann, Eletrocardiograma em 7 aulas). Traçados: desenho esquemático.'))
 
@@ -195,7 +195,7 @@ render(D1 + 'SP 1.4 · Emergências obstétricas - eclâmpsia, HPP, DPP e compro
  vars='--fs:8.5pt;--lh:1.54;--gap:3.7mm', corpo=f'''<div class="gL"><div>
 {sec('Pré-eclâmpsia', '''<ul><li><b>≥ 140/90 após 20 semanas</b> + proteinúria (proteína/creatinina ≥ 0,3, 24 h ≥ 300 mg ou fita ≥ 2+) <b>ou</b> lesão de órgão-alvo (plaquetas, fígado, rim, EAP, sintomas neurológicos) <b>ou</b> disfunção placentária (RCF, Doppler)</li>
 <li>Gravidade: PA ≥ 160/110 persistente após 15 min, iminência de eclâmpsia (cefaleia, escotomas, hiper-reflexia), epigastralgia · sFlt-1/PlGF &lt; 38 exclui por 1 semana</li>
-<li><b>Crise</b> ≥ 160/110: nifedipino 10–20 mg VO (preferencial) ou hidralazina 5 mg IV a cada 20 min; NPS se refratária ou EAP. Manutenção: metildopa, nifedipino retard</li>
+<li><b>Crise</b> ≥ 160/110: nifedipino 10 mg VO, repetir 10 mg a cada 20–30 min, máx. 30 mg (preferencial) ou hidralazina 5 mg IV a cada 20 min; NPS se refratária ou EAP. Manutenção: metildopa, nifedipino retard</li>
 <li>Prevenção: <b>AAS 100–150 mg</b> à noite, de 12–16 até 36 semanas, no alto risco (PE prévia, HAS, DM, DRC, lúpus, SAF, gemelar) ou ≥ 2 fatores moderados</li>
 <li>Parto: sem gravidade com 37 sem · com gravidade: &lt; 24 sem interromper; 24–34 conservador + corticoide; parto já se eclâmpsia, HELLP, EAP, HAS refratária a 3 drogas, piora renal, DPP ou vitalidade fetal grave. PE não obriga cesárea</li></ul>''')}
 {sec('Eclâmpsia e sulfato de magnésio', '''<ul><li>Convulsão tônico-clônica (ou coma) com PE, excluídas outras causas; imagem se refratária ao Mg, déficit focal ou &lt; 20 semanas</li>
