@@ -60,7 +60,7 @@ def tira(t, svg, x):
 
 # ======================= 1. BLOQUEIOS NO ECG (C) =======================
 render(D1 + 'SP 1.1 · Bloqueios no ECG - resumo em 1 folha', dict(layout='C', titulo='Bloqueios no ECG',
- sub='Sinoatrial, atrioventriculares, de ramo, divisionais e bifasciculares', vars='--fs:8.3pt;--lh:1.5;--gap:3.4mm',
+ sub='Sinoatrial, atrioventriculares, de ramo, divisionais e bifasciculares', vars='--fs:8.3pt;--lh:1.55;--gap:3.6mm',
  corpo=f'''
 <div class="sec">{cards([('BAV 1º grau', 'PR &gt; 0,20 s', 'constante; todas as P conduzem'), ('Bloqueio de ramo', 'QRS ≥ 0,12 s', 'divisional isolado: QRS &lt; 0,12'), ('BDAS', 'além de −30°', '−45° é critério de certeza'), ('BDPI', 'além de +90°', 'raro: diagnóstico de exclusão')])}</div>
 <div class="g2"><div>
@@ -97,7 +97,7 @@ FLX_RI = '''<div class="flx">
 <div class="fb ok"><b>Atropina</b> 0,5–1 mg (máx. 2–3 mg) se nodal → <b>marca-passo transcutâneo</b>; Mobitz II e BAVT de QRS largo: marca-passo (atropina não)</div></div>'''
 
 render(D1 + 'SP 1.1 · Distúrbios do ritmo - resumo em 1 folha', dict(layout='B', titulo='Distúrbios do Ritmo',
- sub='FA, flutter, TSVP, TV, FV, taquicardia sinusal e BAV', vars='--fs:7.75pt;--lh:1.46;--gap:3mm',
+ sub='FA, flutter, TSVP, TV, FV, taquicardia sinusal e BAV', vars='--fs:7.7pt;--lh:1.45;--gap:2.9mm',
  corpo=f'''<div class="gB"><div>
 {card('Por onde começar', FLX_RI)}
 {card('Fibrilação atrial', '''<ul><li>ECG: sem P, ondas f (350–600/min), <b>RR irregularmente irregular</b>; &gt; 30 s para chamar de FA</li>
@@ -106,6 +106,7 @@ render(D1 + 'SP 1.1 · Distúrbios do ritmo - resumo em 1 folha', dict(layout='B
 <li>Ritmo (jovem, sintomático, ICFEr): &gt; 48 h ou tempo incerto → ACO 3 semanas ou ECO-TE; anticoagular 4 semanas depois. Amiodarona se cardiopatia; propafenona se coração normal</li>
 <li><b>ACOD</b> 1ª linha; <b>varfarina</b> obrigatória na prótese mecânica e na estenose mitral reumática moderada/grave. AAS não previne AVC na FA</li></ul>''')}
 {card('Flutter atrial', '<ul><li>Macrorreentrada no istmo cavotricuspídeo; átrio 240–320, <b>2:1 → ~150 bpm</b>; ondas F em dente de serra (anti-horário: negativas em DII, DIII, aVF)</li><li>Mesmo CHA₂DS₂-VA da FA · <b>ablação do istmo</b> é 1ª linha (sucesso &gt; 90%)</li><li>Classe IC sem bloquear o nó AV pode conduzir 1:1</li></ul>')}
+{card('BAV na emergência', '<ul><li>IAM <b>inferior</b>: nó AV (coronária direita), transitório, responde à atropina · IAM <b>anterior</b>: infranodal, Mobitz II/BAVT de QRS largo, alto risco de assistolia</li><li>Marca-passo definitivo: Mobitz II, BAVT e bloqueios infranodais de alto grau, mesmo sem sintomas</li></ul>')}
 </div><div>
 {card('TSVP e Wolff-Parkinson-White', '''<ul><li>Regular, QRS estreito, 150–250 bpm, início e fim súbitos; <b>TRN ~60%</b> (P escondida, pseudo-r′ em V1, sinal do sapo) · TRAV ~30% (P retrógrada no ST)</li>
 <li><b>Valsalva modificada</b>: soprar seringa 15 s e deitar com pernas a 45° (até 43%)</li>
@@ -140,8 +141,9 @@ render(D1 + 'SP 1.2 · Tratamento do IAM - resumo em 1 folha', dict(layout='B', 
 {card('Fibrinolíticos', '''<ul><li><b>Tenecteplase</b>: bolus único por peso, 30 mg (&lt; 60 kg) a 50 mg (&gt; 90 kg); meia dose se &gt; 75 anos</li>
 <li><b>Alteplase</b>: 15 mg bolus → 0,75 mg/kg em 30 min → 0,5 mg/kg em 60 min (máx. 100 mg)</li>
 <li>Contraindicação absoluta: AVC hemorrágico prévio, AVCi &lt; 3 meses, lesão ou neoplasia intracraniana, suspeita de dissecção de aorta, sangramento ativo</li></ul>''')}
+{nc(['Oxigênio de rotina com SpO₂ ≥ 90% não ajuda e pode piorar.', 'Lítico que falhou pede resgate, não 2ª dose.', 'Prasugrel é contraindicado com AVC ou AIT prévio.', 'Fondaparinux não pode ser o único anticoagulante na ICP.', 'AINE (exceto AAS) aumenta eventos: contraindicado.', 'Choque: abrir só o vaso culpado na hora.'])}
 </div><div>
-{card('MONABCH atualizado (emergência e primeiras 24 h)', '''<table><tr><th></th><th>O que fazer</th></tr>
+{card('MONABCH atualizado (primeiras 24 h)', '''<table><tr><th></th><th>O que fazer</th></tr>
 <tr><td>M</td><td>Morfina 2–4 mg IV só na dor refratária; cuidado no IAM de VD</td></tr>
 <tr><td>O</td><td>O₂ só se SpO₂ &lt; 90%</td></tr>
 <tr><td>N</td><td>Nitrato SL 0,3–0,4 mg até 3× se PAS ≥ 90; não no IAM de VD nem após iPDE5 (24 h sildenafila, 48 h tadalafila)</td></tr>
@@ -150,14 +152,14 @@ render(D1 + 'SP 1.2 · Tratamento do IAM - resumo em 1 folha', dict(layout='B', 
 <tr><td>C</td><td>Clopidogrel obrigatório na fibrinólise: 300 mg se ≤ 75 anos; sem ataque se &gt; 75</td></tr>
 <tr><td>H</td><td>HNF 60 UI/kg (máx. 4.000) + 12 UI/kg/h na ICP · enoxaparina 1 mg/kg 12/12 h no IAMSSST e na fibrinólise · fondaparinux 2,5 mg</td></tr></table>
 <p style="margin-top:3px">+ <b>Estatina alta intensidade</b> para todos (atorvastatina 40–80 ou rosuvastatina 20–40) · <b>IECA/BRA</b> em 24 h se FE ≤ 40%, HAS, DM ou IAM anterior · espironolactona se FE ≤ 40% com IC ou DM.</p>''')}
-{nc(['Oxigênio de rotina com SpO₂ ≥ 90% não ajuda e pode piorar.', 'Lítico que falhou pede resgate, não 2ª dose.', 'Prasugrel é contraindicado com AVC ou AIT prévio.', 'Fondaparinux não pode ser o único anticoagulante na ICP.', 'AINE (exceto AAS) aumenta eventos: contraindicado.', 'Choque: abrir só o vaso culpado na hora.'])}
+{card('Depois da fase aguda', '<ul><li><b>CDI</b> se FEVE ≤ 40%, a partir de 40 dias pós-IAM e 90 dias pós-revascularização</li><li><b>Marca-passo definitivo</b>: Mobitz II, BAV de alto grau, bloqueio de ramo alternante ou BAVT persistente/infranodal</li><li>FV/TV sustentada &gt; 48 h após a reperfusão = maior risco de morte</li></ul>')}
 {mn([('10, 30, 90, 120', 'ECG em 10 min · agulha em 30 · balão em 90 · transferido em 120.'), ('No VD, sem Nitrato e cuidado com a Morfina', ''), ('Cinquenta na frente, setenta embaixo', 'queda do ST que mostra reperfusão: anterior ≥ 50%, inferior ≥ 70%.'), ('PrAsugrel é Proibido após AVC', ''), ('Lítico chama Clopidogrel', 'é o P2Y12 obrigatório na fibrinólise.')])}
 </div></div>''',
  fontes='Elaborado pela MedSum com base no resumo de tratamento do IAM e no capítulo de tratamento do resumo de síndrome coronariana aguda do 8º semestre (ACC/AHA/ACEP/NAEMSP/SCAI 2025).'))
 
 # ======================= 4. CRISE HIPERTENSIVA (C) =======================
 render(D1 + 'SP 1.3 · Crise hipertensiva - resumo em 1 folha', dict(layout='C', titulo='Crise Hipertensiva',
- sub='Emergência, elevação sem lesão aguda e pseudocrise (Diretriz Brasileira 2025)', vars='--fs:7.95pt;--lh:1.48;--gap:3.1mm',
+ sub='Emergência, elevação sem lesão aguda e pseudocrise (Diretriz Brasileira 2025)', vars='--fs:8pt;--lh:1.5;--gap:3.2mm',
  corpo=f'''
 <div class="sec">{cards([('Crise hipertensiva', '≥ 180/110', 'quem define a gravidade é a LOA aguda'), ('1ª hora', 'até −25%', '160/100–110 em 2–6 h; normal em 24–48 h'), ('Dissecção de aorta', 'PAS &lt; 120', 'e FC &lt; 60 em até 20 min'), ('EAP e catecolaminas', 'PAS &lt; 140', 'já na 1ª hora')])}</div>
 <div class="sec"><h2>Três quadros, três condutas</h2><table><tr><th></th><th>LOA aguda</th><th>Conduta</th></tr>
@@ -174,6 +176,7 @@ render(D1 + 'SP 1.3 · Crise hipertensiva - resumo em 1 folha', dict(layout='C',
 <li><b>Gestante</b> ≥ 160/110 por &gt; 15 min: hidralazina 5 mg IV a cada 20–30 min (até 15 mg) ou nifedipina 10 mg VO; MgSO₄; IECA, BRA e atenolol contraindicados</li>
 <li><b>SCA</b>: nitroglicerina ± BB; PAS &lt; 140 sem cair abaixo de 120</li>
 <li><b>Encefalopatia</b>: −20–25% na 1ª h, 160/100 em até 48 h · <b>HA maligna</b> (papiledema): nitroprussiato, depois IECA/BRA</li></ul>''')}
+{nc(['O número não define emergência: a LOA define.', 'Nifedipina de liberação rápida é proscrita.', 'Sem LOA não precisa de UTI nem de injetável.', 'Na dissecção, vasodilatador sozinho dá taquicardia reflexa: BB primeiro.', 'No AVCi sem trombólise, baixar a PA amplia o infarto.', 'Feocromocitoma: BB isolado sobe a PA (α sem oposição).'])}
 </div><div>
 {sec('Drogas IV', '''<table><tr><th>Droga</th><th>Quando</th></tr>
 <tr><td>Nitroprussiato 0,25–10 µg/kg/min</td><td>A maioria; risco de cianeto; evitar no IAM (roubo coronariano)</td></tr>
@@ -181,7 +184,7 @@ render(D1 + 'SP 1.3 · Crise hipertensiva - resumo em 1 folha', dict(layout='C',
 <tr><td>Esmolol / metoprolol</td><td>Dissecção (antes do NPS) e SCA</td></tr>
 <tr><td>Hidralazina</td><td>Eclâmpsia; evitar na coronariopatia e na dissecção</td></tr>
 <tr><td>Furosemida 20–60 mg</td><td>EAP e hipervolemia</td></tr></table>''')}
-{nc(['O número não define emergência: a LOA define.', 'Nifedipina de liberação rápida é proscrita.', 'Sem LOA não precisa de UTI nem de injetável.', 'Na dissecção, vasodilatador sozinho dá taquicardia reflexa: BB primeiro.', 'No AVCi sem trombólise, baixar a PA amplia o infarto.', 'Feocromocitoma: BB isolado sobe a PA (α sem oposição).'])}
+{sec('Depois da crise', '<p>Desmame do IV para via oral em 24–48 h; esquema padrão em comprimido único: <b>IECA ou BRA + BCC + tiazídico</b>. Meta de longo prazo &lt; 130/80. Investigar causa secundária (renal, renovascular, hiperaldosteronismo, apneia do sono).</p>')}
 {mn([('Quem manda é a LOA, não o número', ''), ('25 na 1ª hora, 160/100 até a 6ª, normal em 2 dias', ''), ('Dissecção: 120 em 20, FC abaixo de 60', ''), ('Feocromocitoma: alfa antes de beta', ''), ('AVCi: 185 para trombolisar, 220 para mexer', '')])}
 </div></div>''',
  fontes='Elaborado pela MedSum com base no resumo de crise hipertensiva do 8º semestre (Diretriz Brasileira de Hipertensão Arterial 2025; AHA/ACC 2025; ESC 2024; Guyton & Hall).'))
@@ -189,7 +192,7 @@ render(D1 + 'SP 1.3 · Crise hipertensiva - resumo em 1 folha', dict(layout='C',
 # ======================= 5. EMERGÊNCIAS OBSTÉTRICAS (A) =======================
 render(D1 + 'SP 1.4 · Emergências obstétricas - eclâmpsia, HPP, DPP e comprometimento fetal persistente - resumo em 1 folha',
  dict(layout='A', titulo='Emergências Obstétricas', sub='Pré-eclâmpsia, eclâmpsia, HELLP, DPP, comprometimento fetal persistente e HPP',
- vars='--fs:7.55pt;--lh:1.45;--gap:2.8mm', corpo=f'''<div class="gL"><div>
+ vars='--fs:8.5pt;--lh:1.54;--gap:3.7mm', corpo=f'''<div class="gL"><div>
 {sec('Pré-eclâmpsia', '''<ul><li><b>≥ 140/90 após 20 semanas</b> + proteinúria (proteína/creatinina ≥ 0,3, 24 h ≥ 300 mg ou fita ≥ 2+) <b>ou</b> lesão de órgão-alvo (plaquetas, fígado, rim, EAP, sintomas neurológicos) <b>ou</b> disfunção placentária (RCF, Doppler)</li>
 <li>Gravidade: PA ≥ 160/110 persistente após 15 min, iminência de eclâmpsia (cefaleia, escotomas, hiper-reflexia), epigastralgia · sFlt-1/PlGF &lt; 38 exclui por 1 semana</li>
 <li><b>Crise</b> ≥ 160/110: nifedipino 10–20 mg VO (preferencial) ou hidralazina 5 mg IV a cada 20 min; NPS se refratária ou EAP. Manutenção: metildopa, nifedipino retard</li>

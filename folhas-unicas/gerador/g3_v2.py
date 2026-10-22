@@ -43,8 +43,9 @@ render('6º sem D1 · HMEC · Entrevista psiquiátrica, exame do estado mental e
 <p style="margin-top:2px">Força baixa = <b>provável</b> · + massa baixa (DXA, BIA, TC, RM) = <b>confirmada</b> · + desempenho baixo = <b>grave</b>.<br><b>Fried (5):</b> perda ≥ 4,5 kg ou ≥ 5%/ano, exaustão, preensão baixa, marcha lenta, pouca atividade física. 1–2 = pré-frágil · <b>≥ 3 = frágil</b>.</p>''')}
 </div><div>
 {box('Exame psíquico: ARCA PAVIS', '''<p><b>A</b>valiação geral · <b>R</b>elação com o entrevistador · <b>C</b>onsciência · <b>A</b>tenção (subtração seriada) · <b>P</b>ensamento: forma e conteúdo (delírios, obsessões) · <b>A</b>fetividade e humor · <b>V</b>ontade · <b>I</b>nteligência, memória, juízo e insight · <b>S</b>ensopercepção (alucinações, ilusões)</p>''')}
-{nc(['Delírio é alteração do pensamento (conteúdo); alucinação é da sensopercepção.', 'Plano estruturado já fecha risco elevado, mesmo sem outros itens.', 'Katz normal com Lawton alterado: dependência em AIVD, não em ABVD.', 'Marcha e SPPB não diagnosticam sarcopenia: graduam a gravidade.'])}
+{nc(['Delírio é alteração do pensamento (conteúdo); alucinação é da sensopercepção.', 'Plano estruturado já fecha risco elevado, mesmo sem outros itens.', 'Katz normal com Lawton alterado: dependência em AIVD, não em ABVD.', 'Marcha e SPPB não diagnosticam sarcopenia: graduam a gravidade.', 'Panturrilha só faz triagem de massa; não confirma.'])}
 {mn([('CAGE com 2 sins, a gaiola fecha', 'Cut, Annoyed, Guilty, Eye-opener.'), ('Katz cuida do corpo, Lawton cuida da vida', 'básicas × instrumentais.'), ('Primeiro larga o banco, depois o banho', 'AIVD cai antes da ABVD.'), ('Força, Massa, Marcha', 'provável, confirmada, grave: cada achado sobe um degrau.'), ('Fried frita com 3', '≥ 3 critérios = frágil.')])}
+{box('Números que caem', '<p>CAGE ≥ 2 · AUDIT ≥ 8 · IRIS ≥ 10<br>GDS-15 ≥ 11 · PHQ-9 ≥ 20 grave<br>preensão 27/16 kg · marcha 0,8 m/s<br>panturrilha 31 cm · SPPB ≤ 8</p>')}
 </div></div>''',
  fontes='Elaborado pela MedSum com base no resumo de entrevista psiquiátrica, exame do estado mental e avaliação do idoso do 6º semestre (Porto; Dalgalarrondo; Botega; IRIS; EWGSOP2; Fried).'))
 
@@ -71,7 +72,7 @@ CEREBRO = '''<svg viewBox="0 0 160 122" width="100%" aria-hidden="true" font-fam
 <text x="2" y="80" font-size="6" fill="#76696b">sulco lateral</text></svg>'''
 
 render(S1 + 'SP 1.1 · Neuroanatomia - resumo em 1 folha', dict(layout='C', titulo='Neuroanatomia',
- sub='Divisões do encéfalo, lobos, giros que caem, comissuras, núcleos da base, límbico e diencéfalo', vars='--fs:8.05pt;--lh:1.5;--gap:3.3mm',
+ sub='Divisões do encéfalo, lobos, giros que caem, comissuras, núcleos da base, límbico e diencéfalo', vars='--fs:8.1pt;--lh:1.52;--gap:3.6mm',
  corpo=f'''<div class="vis sec" style="--vw:58mm"><div>{CEREBRO}<p class="m" style="font-size:.85em;text-align:center">vinho: giro pré-central (motor) · dourado: pós-central (sensitivo)</p></div><div>
 {cards([('SNC', 'encéfalo + medula', 'SNP: nervos somáticos, autônomos e entéricos'), ('Encéfalo', '4 partes', 'telencéfalo, diencéfalo, cerebelo e tronco (mesencéfalo, ponte, bulbo)'), ('Líquor', '4 ventrículos', 'feito no plexo corioide; circula no espaço subaracnóideo')])}
 <p class="m" style="margin-top:2.5mm">Meninges de fora para dentro: <b>dura-máter, aracnoide, pia-máter</b>. Giros são as dobras; sulcos, as fendas: central (de <b>Rolando</b>), lateral (de <b>Sylvius</b>), parieto-occipital, calcarino, do cíngulo.</p></div></div>
@@ -92,7 +93,7 @@ render(S1 + 'SP 1.1 · Neuroanatomia - resumo em 1 folha', dict(layout='C', titu
 
 # ======================= TRANSTORNOS DEPRESSIVOS (A) =======================
 render(S1 + 'SP 1.1 · Transtornos depressivos - resumo em 1 folha', dict(layout='A', titulo='Transtornos Depressivos',
- sub='Neurotransmissores, diagnóstico (DSM-5), subtipos, fisiopatologia e antidepressivos', vars='--fs:7.6pt;--lh:1.46;--gap:2.8mm',
+ sub='Neurotransmissores, diagnóstico (DSM-5), subtipos, fisiopatologia e antidepressivos', vars='--fs:7.85pt;--lh:1.5;--gap:3.1mm',
  corpo=f'''<div class="gL"><div>
 {sec('Transtorno depressivo maior (DSM-5)', '''<p><b>≥ 5 de 9 sintomas</b>, quase todos os dias, por <b>≥ 2 semanas</b>, sendo um deles <span class="k">humor deprimido</span> ou <span class="k">anedonia</span>: peso/apetite (± 5% em 1 mês), insônia ou hipersonia, agitação ou retardo, fadiga, culpa ou inutilidade, concentração, pensamentos de morte. Com prejuízo e <b>sem mania/hipomania</b> prévia.</p>
 <ul><li>Mulheres 1,5–3×; pico de incidência na década dos 20; Brasil ~7%</li><li>Recorre mais: início precoce, vários episódios, sintomas residuais. Psicose, adolescência e história familiar → pode virar bipolar</li>
@@ -171,7 +172,7 @@ FLX_TEMPO = '''<div class="flx">
 <div class="fr" style="margin-top:5px"><div class="fb">Psicose só dentro do episódio de humor<div class="fp">humor com sintomas psicóticos</div></div><div class="fb">Droga, remédio ou doença<div class="fp">induzido / devido a condição médica</div></div></div></div>'''
 
 render(S1 + 'SP 1.3 · Transtornos psicóticos - resumo em 1 folha', dict(layout='B', titulo='Transtornos Psicóticos',
- sub='Espectro da esquizofrenia, vias dopaminérgicas, antipsicóticos e rede de cuidado', vars='--fs:8.05pt;--lh:1.5;--gap:3.4mm',
+ sub='Espectro da esquizofrenia, vias dopaminérgicas, antipsicóticos e rede de cuidado', vars='--fs:8.05pt;--lh:1.47;--gap:3.3mm',
  corpo=f'''<div class="gB"><div>
 {card('Pelo tempo de doença', FLX_TEMPO)}
 {card('Esquizofrenia (DSM-5)', '''<p><b>≥ 2</b> por ≥ 1 mês (um deles <b>delírio, alucinação ou discurso desorganizado</b>): delírios, alucinações, discurso desorganizado, comportamento desorganizado/catatônico, sintomas negativos. Prejuízo funcional e <b>≥ 6 meses</b> no total.</p>
@@ -192,14 +193,14 @@ render(S1 + 'SP 1.3 · Transtornos psicóticos - resumo em 1 folha', dict(layout
 <li><b>Clozapina:</b> única eficaz na <b>resistente</b> e reduz suicídio; <b>agranulocitose</b> → hemograma</li>
 <li><b>Depósito (LAI)</b> para quem não adere · <b>biperideno</b> corrige extrapiramidal · benzo na agitação/catatonia</li>
 <li><b>Síndrome neuroléptica maligna:</b> rigidez, febre, confusão, instabilidade autonômica</li></ul>''')}
-{mn([('Breve, Forme, Fenia: 1 mês e 6 meses', 'os dois cortes de tempo.'), ('Mesolímbica é Mais, Mesocortical é Menos', 'positivos por excesso, negativos por falta de dopamina.'), ('Tubero tira o freio do leite', 'bloqueio D2 sobe a prolactina.'), ('Clozapina cura a resistente e cobra o hemograma', ''), {card('Além da dopamina', '<p>↓ interneurônios <b>GABA</b> soltam a dopamina · <b>5-HT2A</b>: seu bloqueio melhora sintomas · ACh/nicotina: déficit cognitivo, por isso tanto <b>tabagismo</b> (automedicação) · infecção intrauterina e idade paterna avançada aumentam o risco.</p>')}
-('Atípico troca o tremor pela balança', 'menos extrapiramidal, mais síndrome metabólica.')])}
+{card('Além da dopamina', '<p>↓ interneurônios <b>GABA</b> soltam a dopamina · <b>5-HT2A</b>: seu bloqueio melhora sintomas · ACh/nicotina: déficit cognitivo; explica o <b>tabagismo</b> frequente (automedicação) · infecção intrauterina e idade paterna avançada aumentam o risco.</p>')}
+{mn([('Breve, Forme, Fenia: 1 mês e 6 meses', 'os dois cortes de tempo.'), ('Mesolímbica é Mais, Mesocortical é Menos', 'positivos por excesso, negativos por falta de dopamina.'), ('Tubero tira o freio do leite', 'bloqueio D2 sobe a prolactina.'), ('Clozapina cura a resistente e cobra o hemograma', ''), ('Atípico troca o tremor pela balança', 'menos extrapiramidal, mais síndrome metabólica.')])}
 </div></div>''',
  fontes='Elaborado pela MedSum com base no resumo de transtornos psicóticos, esquizofrenia e antipsicóticos do 6º semestre (DSM-5; Sadock; Golan; Rang &amp; Dale; Ministério da Saúde).'))
 
 # ======================= TRANSTORNO BIPOLAR (C) =======================
 render(S1 + 'SP 1.4 · Transtorno bipolar - resumo em 1 folha', dict(layout='C', titulo='Transtorno Bipolar',
- sub='Tipo I, tipo II e ciclotimia, diferenciais, estabilizadores do humor e o que não usar', vars='--fs:8.05pt;--lh:1.5;--gap:3.3mm',
+ sub='Tipo I, tipo II e ciclotimia, diferenciais, estabilizadores do humor e o que não usar', vars='--fs:8pt;--lh:1.47;--gap:3.1mm',
  corpo=f'''<div class="sec">{cards([('Mania', '≥ 7 dias', 'ou qualquer duração se internou'), ('Hipomania', '≥ 4 dias', 'sem prejuízo grave, sem psicose'), ('Ciclotimia', '≥ 2 anos', '1 ano em jovens; nunca episódio completo'), ('Ciclagem rápida', '≥ 4/ano', 'episódios em 12 meses')])}</div>
 <div class="g2"><div>
 {sec('Os três quadros', '''<table><tr><th></th><th>Precisa de</th><th>Curso</th></tr>
@@ -210,6 +211,7 @@ render(S1 + 'SP 1.4 · Transtorno bipolar - resumo em 1 folha', dict(layout='C',
 {sec('Diferenciais e exames', '''<ul><li><b>TDAH:</b> crônico desde a infância · <b>borderline:</b> instável e reativo, não episódico · <b>ansiedade:</b> contínua · <b>DDHM</b> (criança): irritabilidade crônica</li>
 <li>Induzido: cocaína, anfetamina, corticoide, antidepressivo, L-dopa · início tardio → procure causa médica</li>
 <li>Pedir: hemograma, TSH/T4, função renal e hepática, eletrólitos, sorologias (HIV, sífilis), toxicológico, imagem</li></ul>''')}
+{sec('Fisiopatologia', '<p>DA e NE ↑ na mania e ↓ na depressão; glutamato (NMDA) hiperativo; ↓ GABA; ↓ BDNF; eixo HHS ↑. Imagem: menos substância cinzenta no cíngulo anterior e ínsula, ventrículos maiores.</p>')}
 {sec('O que não usar', '''<ul><li><b>Antidepressivo em monoterapia</b> (ISRS, IRSN, tricíclico, bupropiona): virada e ciclagem rápida; se precisar, sempre com estabilizador</li>
 <li><b>Tricíclicos:</b> altíssimo risco de virada · <b>IRSN:</b> mais virada que ISRS</li>
 <li><b>Estimulantes</b> (metilfenidato, anfetamina): podem precipitar mania ou psicose</li>
@@ -224,13 +226,12 @@ render(S1 + 'SP 1.4 · Transtorno bipolar - resumo em 1 folha', dict(layout='C',
 <li>Fases: aguda → continuação (4–9 meses) → manutenção (anos)</li></ul>''')}
 {nc(['Antidepressivo sozinho no bipolar: nunca (virada e ciclagem).', 'Tipo II não é "mais leve" que o tipo I.', 'Hipomania com psicose ou internação já é mania.', 'Benzodiazepínico só como ponte na agitação ou insônia.'])}
 {mn([('Mania dura a semana; hipomania, um feriadão', '7 dias × 4 dias.'), ('Uma mania basta para o tipo I', ''), ('Lítio cobra do rim e da tireoide', 'poliúria, DI nefrogênico, hipotireoidismo.'), ('Carbamazepina carrega as enzimas e leva o sódio', 'indutor do CYP3A4 e SIADH.'), ('Lamotrigina, olho na pele', 'Stevens-Johnson.'), ('Valproato vai ao fígado e ao tubo neural', '')])}
-{sec('Fisiopatologia', '<p>DA e NE ↑ na mania e ↓ na depressão; glutamato (NMDA) hiperativo; ↓ GABA; ↓ BDNF; eixo HHS ↑. Imagem: menos substância cinzenta no cíngulo anterior e ínsula, ventrículos maiores.</p>')}
 </div></div>''',
  fontes='Elaborado pela MedSum com base no resumo de transtornos bipolares e estabilizadores de humor do 6º semestre (DSM-5; Sadock; Tratado da ABP; Porto).'))
 
 # ======================= NEOPLASIA E SÍNDROME CONSUMPTIVA (A) =======================
 render('6º sem D3 · NCS · SP 3.3 · Neoplasia e síndrome consumptiva - resumo em 1 folha', dict(layout='A', titulo='Neoplasia e Síndrome Consumptiva',
- sub='Hallmarks, por que o câncer emagrece, caquexia, rastreamento, quimioterápicos e câncer de ovário', vars='--fs:7.95pt;--lh:1.5;--gap:3.2mm',
+ sub='Hallmarks, por que o câncer emagrece, caquexia, rastreamento, quimioterápicos e câncer de ovário', vars='--fs:8.1pt;--lh:1.5;--gap:3.4mm',
  corpo=f'''<div class="gL"><div>
 {sec('Hallmarks do câncer (Hanahan e Weinberg)', '''<ul><li><b>2000 (6):</b> autossuficiência em sinais de crescimento, insensibilidade a antiproliferativos, evasão da apoptose, replicação ilimitada (telomerase), angiogênese (VEGF), invasão e metástase</li>
 <li><b>2011:</b> + metabolismo desregulado (<b>Warburg</b>) e evasão imune (PD-L1); capacitadoras: instabilidade genômica e <b>inflamação</b></li>
@@ -254,5 +255,6 @@ render('6º sem D3 · NCS · SP 3.3 · Neoplasia e síndrome consumptiva - resum
 {box('Ovário', '<p><b>Seroso de alto grau</b> (o mais comum; nasce na fímbria, STIC; disseminação peritoneal) · <b>endometrioide</b> e <b>células claras</b> (endometriose, ARID1A). Tratamento: carboplatina + paclitaxel. Veia ovariana D → VCI; E → renal E. Carcinoma × cistadenoma: <b>invasão do estroma</b>, necrose, atipia.</p>')}
 {nc(['Caquexia não é só falta de comida: é inflamação e músculo.', 'Ovário não tem rastreio populacional.', 'Taxano estabiliza; vinca impede a montagem.', 'O que define malignidade no ovário é a invasão estromal.'])}
 {mn([('Warburg é perdulário', 'queima glicose sem usar o oxigênio.'), ('Citocina desliga o NPY e liga o POMC', 'fome em off.'), ('Taxano trava, vinca veta', 'microtúbulos.'), ('Aos 50 começa a fila', 'mama, cólon e próstata.'), ('Esquerda faz escala na renal', 'veia ovariana esquerda.')])}
+{box('Números que caem', '<p>caquexia: &gt; 20% das mortes<br>massa muscular: TC em L3<br>mama 50–69, a cada 2 anos<br>colo 25–64 · cólon 50–75<br>pulmão: ≥ 30 maços-ano<br>fígado: USG a cada 6 meses</p>')}
 </div></div>''',
  fontes='Elaborado pela MedSum com base no resumo de neoplasia e síndrome consumptiva do 6º semestre (Hanahan e Weinberg 2000, 2011, 2022; Bogliolo; Rang &amp; Dale; Whalen; Miola).'))
