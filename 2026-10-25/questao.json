@@ -1,0 +1,27 @@
+{
+  "edicao": 3,
+  "id_banco": "enare-2025-q20",
+  "banca": "ENARE 2025 (5ª edição, questão 20)",
+  "pergunta_resumo": "Mulher, 65 anos, astenia e prurido palmoplantar; FA 1005, GGT 1200, BT 6,0 às custas de direta, plaquetas 85.000; USG com hepatopatia crônica e vias biliares sem dilatação. Hipótese e exame?",
+  "gabarito": "D",
+  "gabarito_texto": "Colangite biliar primária; antimitocôndria.",
+  "comentario": "Mulher de meia-idade com fadiga, prurido palmoplantar e colestase importante (FA e GGT muito elevadas), com vias biliares sem dilatação no ultrassom, é colangite biliar primária (CBP) até prova em contrário. O exame que confirma é o anticorpo antimitocôndria (AMA), positivo em cerca de 95% dos casos: FA elevada + AMA positivo fecha o diagnóstico sem biópsia. A diretriz AGA/AASLD de 22/10/2026 mantém esse raciocínio e acrescenta um passo: se o AMA vier negativo e a suspeita continuar, pedir anti-sp100 e anti-gp210, que ajudam no diagnóstico e podem evitar a biópsia. O gabarito continua correto pela diretriz nova.",
+  "por_que_nao": {
+    "A": "FAN e antimúsculo liso são marcadores da hepatite autoimune tipo 1, que cursa com padrão hepatocelular, e não com colestase tão intensa.",
+    "B": "A colangite esclerosante primária predomina em homens com doença inflamatória intestinal, e o exame inicial é a colangiorressonância, não a CPRE.",
+    "C": "O anti-LKM1 é marcador da hepatite autoimune tipo 2, típica de crianças e jovens, e não da colangite biliar primária.",
+    "E": "Não há exposição a medicamento no caso, e FAN e antimúsculo liso não investigam hepatite medicamentosa."
+  },
+  "bonus_pergunta": "Confirmada a CBP, qual é a primeira linha de tratamento e o que fazer se a resposta for inadequada, pela AGA/AASLD 2026?",
+  "bonus": "Primeira linha: ácido ursodesoxicólico (AUDC). Se a resposta ao AUDC for inadequada, considerar associar um agonista PPAR; quem não tolera o AUDC pode usar o agonista PPAR como alternativa. A elastografia (rigidez hepática) ajuda a estimar o risco de progressão, e para prurido moderado a grave pode-se considerar o linerixibat, em decisão compartilhada. O ácido obeticólico, que era a 2ª linha, saiu do mercado dos EUA no fim de 2025.",
+  "fonte": "AGA/AASLD 2026 · diretriz de tratamento medicamentoso da colangite biliar primária (Gastroenterology e Hepatology, 22/10/2026)",
+  "tema": "Colangite biliar primária",
+  "enunciado": "Mulher de 65 anos procura o gastroenterologista com queixas de astenia, prurido palmar e plantar e elevação de fosfatase alcalina (1005 UI/ml) e Gama GT (1200 UI/ml). As enzimas hepáticas TGO e TGP estão elevadas (300 e 250 UI/ml, respectivamente) e a bilirrubina total é de 6,0 mg/dl, às custas da bilirrubina direta. Apresenta plaquetopenia de 85.000/mm³, e a ultrassonografia de abdômen aponta alterações compatíveis com doença parenquimatosa crônica do fígado, sem dilatação das vias biliares intra e extra-hepáticas e vesícula biliar anecoica. A principal hipótese diagnóstica para o caso e o exame complementar a ser solicitado são, respectivamente:",
+  "alternativas": {
+    "A": "Hepatite colestática autoimune; FAN e antimúsculo liso.",
+    "B": "Colangite esclerosante primária; CPER e P-Anca.",
+    "C": "Colangite biliar primária; anti-LKM1.",
+    "D": "Colangite biliar primária; antimitocôndria.",
+    "E": "Hepatite medicamentosa; FAN e antimúsculo liso."
+  }
+}
