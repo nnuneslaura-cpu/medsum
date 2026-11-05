@@ -1,0 +1,15 @@
+{
+  "data": "2026-11-05",
+  "gerado_em": "2026-11-05T18:26:13-03:00",
+  "itens": [
+    {
+      "area": "Pneumologia",
+      "fonte": "ATS 2026",
+      "titulo": "Corticoide inalatório conforme necessidade na asma (diretriz oficial da American Thoracic Society)",
+      "o_que_mudou": "Antes, nos degraus leves da asma (NAEPP 1 e 2), o beta-2 de curta ação (SABA) sozinho ainda era aceito como resgate. Agora a ATS recomenda com força trocar o SABA isolado por corticoide inalatório junto com o broncodilatador na hora da crise (ICS-formoterol ou ICS+SABA), e nos degraus 3 a 5 prefere a terapia de manutenção e resgate com ICS-formoterol no mesmo inalador (MART).",
+      "prova": "Asma leve não se trata com SABA sozinho: o resgate deve levar corticoide inalatório (ICS-formoterol ou ICS+SABA), e na asma moderada a grave a escolha é MART com ICS-formoterol.",
+      "roteiro": "Se você ainda prescreve só salbutamol para asma leve, essa diretriz é para você. A American Thoracic Society publicou nesta semana a nova diretriz sobre corticoide inalatório conforme necessidade. O recado principal: o broncodilatador de curta ação sozinho saiu de cena. Na asma leve, o resgate deve levar corticoide junto, seja budesonida com formoterol, seja corticoide com salbutamol. E na asma moderada a grave, a preferência é a terapia de manutenção e resgate com corticoide mais formoterol no mesmo inalador, o famoso MART. O motivo é simples: menos crises graves e menos corticoide oral. Na prova, se aparecer paciente com asma leve recebendo só SABA, desconfie: a conduta correta inclui corticoide inalatório no resgate. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://academic.oup.com/ajrccm/advance-article/doi/10.1093/ajrccm/aamag577/9010894"
+    }
+  ]
+}
