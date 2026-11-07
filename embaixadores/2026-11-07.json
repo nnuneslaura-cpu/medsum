@@ -4,6 +4,46 @@
  "textos": [],
  "videos": [
   {
+   "id": "2026-11-07-v7",
+   "publico": "todos",
+   "titulo": "Novidades: o seu estudo de todo dia",
+   "arquivo": "videos/2026-11-07-novidades.mp4",
+   "capa": "videos/2026-11-07-novidades.jpg",
+   "destino": "/",
+   "legenda": "Tem muita coisa nova na MedSum ✨\n\nCronograma que se monta sozinho, plantão com meta do dia, Revisão do dia com Caderno de Erros, Bola de Neve, flashcards, revisão de véspera em um toque, caneta para escrever no resumo e na questão e nota estimada por banca. E dá para estudar junto: desafio de lista com os amigos, salas de estudo ao vivo, 60 conquistas e a Liga da semana.\n\nCrie a sua conta grátis e teste: {link}\nNa hora de assinar, o cupom *{cupom}* dá 10% de desconto.",
+   "roteiro": "1. Abra medsumstore.com.br e grave a tela.\n2. Role até O seu estudo de todo dia e pare em cada ferramenta.\n3. Continue até Estudar junto rende mais e mostre a Liga.\n4. Termine falando: crie a sua conta grátis, o link está na legenda."
+  },
+  {
+   "id": "2026-11-07-v8",
+   "publico": "todos",
+   "titulo": "Dissecta: o jogo de anatomia da MedSum",
+   "arquivo": "videos/2026-11-07-dissecta.mp4",
+   "capa": "videos/2026-11-07-dissecta.jpg",
+   "destino": "/anatomia.html",
+   "legenda": "Você acerta a peça do dia? 🦴\n\nO Dissecta é o jogo de anatomia da MedSum: aparece a estrutura em vermelho e você escreve o nome. Tem ossos, músculos, neuroanatomia, vasos, radiologia e histologia, com Treino, Relâmpago de 60 segundos, Prova de alfinete e duelo entre amigos.\n\nO membro superior é grátis, sem conta: {link}",
+   "roteiro": "1. Abra medsumstore.com.br/anatomia.html e grave a tela.\n2. Mostre a peça do dia e escreva o nome da estrutura.\n3. Toque em Responder e mostre o resultado.\n4. Role pelos modos de jogo: Treino, Relâmpago, Prova de alfinete e Duelo.\n5. Termine falando: o membro superior é grátis, o link está na legenda."
+  },
+  {
+   "id": "2026-11-07-v9",
+   "publico": "todos",
+   "titulo": "O que cai em cada tema, banca por banca",
+   "arquivo": "videos/2026-11-07-o-que-cai.mp4",
+   "capa": "videos/2026-11-07-o-que-cai.jpg",
+   "destino": "/temas.html",
+   "legenda": "Antes de estudar um tema, veja como ele cai em cada banca 🎯\n\nNa MedSum você escolhe o tema e vê quantas questões caíram na UNIFESP, USP, ENARE e ENAMED, PSU-MG, SUS-SP e Revalida, o que cada banca pergunta e onde focar. Análise feita sobre as provas oficiais.\n\nÉ grátis: {link}",
+   "roteiro": "1. Abra medsumstore.com.br/temas.html e grave a tela.\n2. Role pela lista e toque num tema.\n3. Mostre quantas questões caem em cada banca.\n4. Mostre o Onde focar.\n5. Termine falando: é grátis, o link está na legenda."
+  },
+  {
+   "id": "2026-11-07-v10",
+   "publico": "todos",
+   "titulo": "Simulados com as provas oficiais",
+   "arquivo": "videos/2026-11-07-simulados.mp4",
+   "capa": "videos/2026-11-07-simulados.jpg",
+   "destino": "/simulados.html",
+   "legenda": "Simulado com a prova anterior de cada banca, inteira e na mesma ordem ⏱️\n\nVocê escolhe a prova, faz com cronômetro e, no fim, vê a correção comentada e a sua posição entre quem fez a mesma prova na MedSum. Ninguém vê o seu nome.\n\nCrie a sua conta grátis e faça o seu: {link}\nO cupom *{cupom}* dá 10% de desconto.",
+   "roteiro": "1. Abra medsumstore.com.br/simulados.html e grave a tela.\n2. Mostre os três passos: escolha a prova, faça como no dia e veja a sua posição.\n3. Toque numa banca e role pelas provas.\n4. Toque em Fazer o simulado.\n5. Termine falando: crie a sua conta grátis, o link está na legenda."
+  },
+  {
    "id": "2026-11-07-v1",
    "publico": "todos",
    "titulo": "Passo a passo: Questão do dia grátis",
