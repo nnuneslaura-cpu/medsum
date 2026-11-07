@@ -1,0 +1,64 @@
+{
+ "videos": [
+  {
+   "id": "2026-11-07-v1",
+   "publico": "todos",
+   "titulo": "Passo a passo: Questão do dia grátis",
+   "arquivo": "videos/2026-11-07-questao-do-dia.mp4",
+   "capa": "videos/2026-11-07-questao-do-dia.jpg",
+   "destino": "/questao-do-dia.html",
+   "legenda": "Uma questão de residência por dia, de graça e sem cadastro 👀\n\nVocê lê o caso, responde e já vê o gabarito comentado de cada alternativa. Amanhã tem outra.\n\nResponda a de hoje: {link}",
+   "roteiro": "1. Abra medsumstore.com.br/questao-do-dia no celular e grave a tela.\n2. Leia o caso devagar, rolando a tela.\n3. Toque numa alternativa e depois em Responder.\n4. Mostre o resultado e role o gabarito comentado.\n5. Termine falando: amanhã tem outra, o link está na legenda."
+  },
+  {
+   "id": "2026-11-07-v2",
+   "publico": "todos",
+   "titulo": "Passo a passo: montar uma lista no banco de questões",
+   "arquivo": "videos/2026-11-07-banco.mp4",
+   "capa": "videos/2026-11-07-banco.jpg",
+   "destino": "/banco.html",
+   "legenda": "Como montar a sua lista de questões de residência em poucos toques 📚\n\nVocê escolhe a banca (ENARE, USP, UNIFESP, ENAMED e outras), a área, o tema e quantas questões quer. Dá para ver o gabarito comentado a cada questão ou só no final.\n\nCrie a sua conta grátis e teste: {link}\nNa hora de assinar, o cupom *{cupom}* dá 10% de desconto.",
+   "roteiro": "1. Abra medsumstore.com.br/banco.html e grave a tela.\n2. Toque em Montar minha lista.\n3. Escolha a banca, depois a área e um ou dois temas.\n4. Escolha 10 questões e o gabarito a cada questão.\n5. Toque em Começar e fale: crie a sua conta grátis pelo link da legenda."
+  },
+  {
+   "id": "2026-11-07-v3",
+   "publico": "geral",
+   "titulo": "Passo a passo: achar o resumo do seu tema",
+   "arquivo": "videos/2026-11-07-resumos-tema.mp4",
+   "capa": "videos/2026-11-07-resumos-tema.jpg",
+   "destino": "/resumos.html",
+   "legenda": "Precisa de um resumo de um tema específico? Na MedSum você busca pelo nome 🔎\n\nResumos por área, especialidade e tema, para qualquer faculdade. Leia online ou baixe o PDF com o seu nome.\n\nTem um resumo grátis para você testar: {link}\nO cupom *{cupom}* dá 10% de desconto.",
+   "roteiro": "1. Abra medsumstore.com.br/resumos.html e grave a tela.\n2. Toque em Resumos por temática.\n3. Digite o tema que você está estudando na busca.\n4. Mostre os resumos que aparecem.\n5. Termine falando: tem um resumo grátis, o link está na legenda."
+  },
+  {
+   "id": "2026-11-07-v4",
+   "publico": "inspirali",
+   "titulo": "Passo a passo: resumos pela grade da sua faculdade*",
+   "arquivo": "videos/2026-11-07-resumos-grade.mp4",
+   "capa": "videos/2026-11-07-resumos-grade.jpg",
+   "destino": "/resumos.html",
+   "legenda": "Os resumos da MedSum seguem a grade da rede Inspirali*: escolhe o semestre e aparecem os resumos de NCS, HMEC, PMSUS e TOCE, com a prova em que cada um cai (D1, D2, D3) 📌\n\nTem um resumo grátis para testar e o cupom *{cupom}* dá 10% de desconto: {link}\n\n_*A MedSum não tem vínculo com a rede Inspirali._",
+   "roteiro": "1. Abra medsumstore.com.br/resumos.html e grave a tela.\n2. Toque em Grade Inspirali.\n3. Escolha o seu semestre.\n4. Role pelos resumos de cada módulo.\n5. Termine falando: tem um resumo grátis, o link está na legenda."
+  },
+  {
+   "id": "2026-11-07-v5",
+   "publico": "todos",
+   "titulo": "Radar de Diretrizes grátis no seu e-mail",
+   "arquivo": "videos/2026-11-07-radar.mp4",
+   "capa": "videos/2026-11-07-radar.jpg",
+   "destino": "/radar.html",
+   "legenda": "Diretriz nova que pode cair na prova, toda segunda no seu e-mail, de graça 📩\n\nO Radar de Diretrizes da MedSum mostra o que saiu, o que mudou na conduta e como isso cai na prova, em três minutos de leitura.\n\nAssine grátis: {link}",
+   "roteiro": "1. Abra medsumstore.com.br/radar.html e grave a tela.\n2. Role até O que chega no seu e-mail e mostre o exemplo.\n3. Volte ao formulário e toque no campo de e-mail.\n4. Termine falando: é grátis, o link está na legenda."
+  },
+  {
+   "id": "2026-11-07-v6",
+   "publico": "todos",
+   "titulo": "Tour: tudo o que a MedSum tem em 30 segundos",
+   "arquivo": "videos/2026-11-07-tour-site.mp4",
+   "capa": "videos/2026-11-07-tour-site.jpg",
+   "destino": "/",
+   "legenda": "Tudo o que a MedSum tem para o seu estudo, em 30 segundos ✨\n\nResumos de todas as áreas, banco de questões de residência, cronograma, revisão do dia, flashcards, liga com os amigos e a IA MedSum tirando dúvida dentro do resumo.\n\nComece de graça: {link}\nO cupom *{cupom}* dá 10% de desconto quando você assinar.",
+   "roteiro": "1. Abra medsumstore.com.br e grave a tela.\n2. Role devagar pela página, parando em cada parte: resumos, conta única, estudo de todo dia, amigos e liga, IA MedSum.\n3. Termine no Comece hoje, de graça e fale: o link está na legenda."
+  }
+ ]
+}
