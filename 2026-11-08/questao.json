@@ -1,0 +1,25 @@
+{
+  "edicao": 5,
+  "id_banco": "unifesp-2022-q86",
+  "banca": "UNIFESP 2022 (R1, questão 86)",
+  "pergunta_resumo": "Mulher, 22 anos, asma desde a infância, em uso correto de budesonida 200 mcg 2x/dia, sem exacerbação no último ano, mas com dispneia aos esforços, despertar noturno semanal e resgate 2 a 3 vezes por semana; ACT 18. Conduta farmacológica?",
+  "gabarito": "B",
+  "gabarito_texto": "Aumentar a dose de budesonida para 400 mcg, 2 vezes ao dia.",
+  "comentario": "A paciente usa corretamente budesonida 400 mcg/dia, que é corticoide inalatório em dose baixa, e tem asma não controlada (ACT 18, abaixo de 20, com despertar noturno e resgate frequente). Com boa adesão e boa técnica, o passo é subir UMA etapa, para a etapa 3. Entre as alternativas, a única que faz isso é aumentar o corticoide inalatório para dose média, opção do regime 2 do PCDT de Asma do Ministério da Saúde (2026). O gabarito continua B. O que mudou foi a opção preferida, que não aparece entre as alternativas: no regime 1 do PCDT 2026, a etapa 3 é budesonida-formoterol em dose baixa como manutenção e alívio no mesmo inalador (MART), e a nova diretriz da ATS (03/11/2026) dá recomendação forte para a MART com corticoide inalatório-formoterol nas etapas 3 a 5, no lugar de corticoide inalatório-LABA fixo com SABA de resgate.",
+  "por_que_nao": {
+    "A": "Prednisona oral é tratamento de exacerbação, e ela não está em crise: o problema é falta de controle, que se resolve ajustando a manutenção.",
+    "C": "Associar formoterol e ainda dobrar a budesonida pula da etapa 2 direto para a etapa 4 (corticoide inalatório em dose média com LABA).",
+    "D": "Manter a dose ignora a asma não controlada (ACT 18, despertar noturno e resgate frequente) em quem já tem boa adesão."
+  },
+  "bonus_pergunta": "Pelo PCDT de Asma 2026 e pela nova diretriz da ATS, qual seria o esquema preferido para essa paciente se ele estivesse entre as alternativas?",
+  "bonus": "Budesonida-formoterol em dose baixa no mesmo inalador, usado todos os dias como manutenção e também como alívio quando houver sintomas (MART, etapa 3 do regime 1 do PCDT). A ATS 2026 dá recomendação forte para a MART com corticoide inalatório-formoterol nas etapas 3 a 5, em vez de corticoide inalatório-LABA fixo com SABA de resgate. E vale lembrar: nenhuma das duas aceita tratar asma só com SABA.",
+  "fonte": "ATS · As-needed inhaled corticosteroids in asthma: an Official American Thoracic Society clinical practice guideline (AJRCCM, 03/11/2026); PCDT de Asma do Ministério da Saúde (Portaria Conjunta SAES/SCTIE nº 43, de 24/03/2026)",
+  "tema": "Asma no adulto",
+  "enunciado": "Mulher, 22 anos de idade, com asma desde a infância, está em uso regular e adequado de budesonida 200 mcg duas vezes ao dia. Nega exacerbação da doença no último ano, mas nas últimas 4 semanas, refere falta de ar ao caminhar, acordando pelo menos uma vez à noite com peito apertado. Tem usado broncodilatador de resgate 2-3 vezes por semana conforme orientado na última consulta. O escore do Teste de Controle da Asma (ACT) foi 18. A mais adequada conduta farmacológica é",
+  "alternativas": {
+    "A": "associar prednisona oral 40 mg ao dia, por 5 dias.",
+    "B": "aumentar a dose de budesonida para 400 mcg, 2 vezes ao dia.",
+    "C": "associar formoterol 12 mcg e aumentar budesonida para 400 mcg, 2 vezes ao dia.",
+    "D": "manter a dose de budesonida de 200 mcg, 2 vezes ao dia."
+  }
+}
