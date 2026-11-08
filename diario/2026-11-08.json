@@ -1,0 +1,15 @@
+{
+  "data": "2026-11-08",
+  "gerado_em": "2026-11-08T20:43:42-03:00",
+  "itens": [
+    {
+      "area": "Cardiologia / Terapia Intensiva",
+      "fonte": "SCAI 2026 (endossada por ACC, AHA e STS)",
+      "titulo": "Atualização 2026 da classificação SCAI SHOCK do choque cardiogênico",
+      "o_que_mudou": "Antes, o estágio do choque (A a E) costumava ser dado uma vez, na chegada, e muitas vezes guiado pela pressão arterial. Agora a SCAI mantém os cinco estágios, mas pede para olhar a perfusão e não só a pressão (hipotensão sem hipoperfusão é estágio B, não C), reavaliar o estágio em intervalos definidos, porque a trajetória diz mais que uma foto só, e conta como estágio D também o paciente que não melhora com o tratamento inicial, e não só o que piora. Também detalha os fenótipos: infarto, insuficiência cardíaca, valvar, ventrículo direito, misto, pós-cirurgia cardíaca e pediátrico.",
+      "prova": "O que define choque cardiogênico clássico (SCAI C) é a hipoperfusão (lactato alto, oligúria, extremidades frias), e não a hipotensão isolada; o paciente que não responde ao tratamento inicial já é estágio D.",
+      "roteiro": "Pressão baixa não é sinônimo de choque. Essa é a mensagem da nova atualização da classificação SCAI SHOCK, divulgada nesta semana no congresso da American Heart Association. Os cinco estágios continuam: A em risco, B começo, C clássico, D deterioração e E extremo. O que muda é o olhar. Primeiro: o que define o choque é a hipoperfusão, ou seja, lactato alto, pouca urina, pele fria. Hipotensão com perfusão boa é estágio B. Segundo: o estágio não é dado uma vez só, ele precisa ser reavaliado ao longo das horas, porque a trajetória importa mais. Terceiro: quem não melhora com o tratamento inicial já entra no estágio D, mesmo sem piorar. Na prova, guarde assim: choque clássico é hipoperfusão, não só pressão baixa. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.news-medical.net/news/20261106/SCAI-updates-consensus-framework-for-assessing-cardiogenic-shock-severity.aspx"
+    }
+  ]
+}
