@@ -6,5 +6,6 @@
   "fontes_conferidas": 14,
   "fontes_que_nao_abriram": ["CONITEC (página de notícias vazia)", "Brasil Participativo / consultas Conitec (erro 503)", "Diário Oficial da União (erro 502)", "ANVISA (lista de notícias não carregou)", "NICE (erro 403)", "AHA Professional / Science News (erro 403)", "FEBRASGO (lista não carregou)", "SBPT (redirecionamento para imagem)", "ACOG (erro 402)", "AAP (lista não carregou)"],
   "fontes_so_por_busca": ["SBD", "SBEM", "SBI", "SBN", "SBH", "SBR", "ABN", "CBC/SBCO", "AMIB", "AMB", "OPAS", "PNI", "GOLD", "GINA", "IDSA", "USPSTF", "ESMO", "NCCN", "EASL"],
-  "observacoes": "Itens recentes fora da janela (já antigos): EXPO AASLD de hepatite delta (06/11), Nota Técnica Conjunta 403/2026 de mpox (05/11), Diretrizes do INCA de rastreamento do colo do útero parte II (04/11), Diretriz SBC de Cardiogeriatria 2026 (outubro). Relatório GOLD 2027 previsto para 18/11/2026."
+  "observacoes": "Itens recentes fora da janela (já antigos): EXPO AASLD de hepatite delta (06/11), Nota Técnica Conjunta 403/2026 de mpox (05/11), Diretrizes do INCA de rastreamento do colo do útero parte II (04/11), Diretriz SBC de Cardiogeriatria 2026 (outubro). Relatório GOLD 2027 previsto para 18/11/2026.",
+  "email": {"status": "enviado", "em": "2026-11-10T07:13:18-03:00", "assunto": "📰 Radar do dia · 10/11: nada novo"}
 }
