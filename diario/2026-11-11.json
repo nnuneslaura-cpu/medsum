@@ -29,5 +29,10 @@
     "SBIm (página vazia)"
   ],
   "fontes_so_por_busca": ["SBD", "SBEM", "SBN", "SBH", "SBR", "ABN", "CBC/SBCO", "AMIB", "AMB", "PNI", "GOLD", "GINA", "ADA", "ACOG", "AAP", "NCCN", "EASL"],
-  "observacoes": "Portaria Conjunta SAES/SCTIE nº 104 é de 20/10/2026; o INCA anunciou a publicação em 10/11/2026 (dentro da janela). Fora da janela: Nota Técnica 51/2026 (SAMU e população em situação de rua, 05/11), Diretriz SBC de IC 2026 (outubro), ACOG menopausa (15/10), EASL-EASD-EASO MASH (outubro). AHA Scientific Sessions (6 a 9/11) sem nova diretriz. Relatório GOLD 2027 previsto para 18/11/2026."
+  "observacoes": "Portaria Conjunta SAES/SCTIE nº 104 é de 20/10/2026; o INCA anunciou a publicação em 10/11/2026 (dentro da janela). Fora da janela: Nota Técnica 51/2026 (SAMU e população em situação de rua, 05/11), Diretriz SBC de IC 2026 (outubro), ACOG menopausa (15/10), EASL-EASD-EASO MASH (outubro). AHA Scientific Sessions (6 a 9/11) sem nova diretriz. Relatório GOLD 2027 previsto para 18/11/2026.",
+  "email": {
+    "status": "enviado",
+    "em": "2026-11-11T07:12:40-03:00",
+    "assunto": "📰 Radar do dia · 11/11: 1 novidade"
+  }
 }
