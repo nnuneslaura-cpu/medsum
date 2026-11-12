@@ -1,0 +1,112 @@
+{
+ "data": "2026-11-12",
+ "tendencia": "Semana de estudo com rotina diária: questão, resumo, dúvida, revisão do erro e o Radar de domingo.",
+ "textos": [
+  {
+   "id": "2026-11-12-1",
+   "publico": "geral",
+   "cat": "banco",
+   "titulo": "Segunda de questão",
+   "quando": "Começo da semana",
+   "destino": "/banco.html",
+   "texto": "Começar a semana resolvendo questão é o jeito mais simples de estudar o que cai. No banco da MedSum são questões oficiais de residência com gabarito comentado, e você tem 3 dias de teste grátis. Use o meu cupom {cupom} e comece por aqui: {link}"
+  },
+  {
+   "id": "2026-11-12-2",
+   "publico": "geral",
+   "cat": "resumos",
+   "titulo": "Revisão que cabe na véspera",
+   "quando": "Terça",
+   "destino": "/resumos.html",
+   "texto": "Resumo bom é o que você consegue revisar na véspera. Os da MedSum seguem a diretriz brasileira primeiro e mostram a divergência em quadro quando ela existe. Do 1º semestre ao internato, do jeito que a sua prova pede. Meu cupom: {cupom}. Veja os resumos: {link}"
+  },
+  {
+   "id": "2026-11-12-3",
+   "publico": "inspirali",
+   "cat": "prova",
+   "titulo": "Seu semestre, organizado*",
+   "quando": "Quarta",
+   "destino": "/resumos.html",
+   "texto": "Quem estuda na grade D1, D2 e D3 (NCS, HMEC, PMSUS, TOCE e OSCE) encontra na MedSum os resumos organizados por semestre e por disciplina, para achar rápido o que a prova cobra. Meu cupom: {cupom}. Escolha o seu semestre: {link}\n*Benefício para alunos da rede Inspirali."
+  },
+  {
+   "id": "2026-11-12-4",
+   "publico": "geral",
+   "cat": "ia",
+   "titulo": "Dúvida de madrugada? Pergunte",
+   "quando": "Quinta",
+   "destino": "/planos.html#ia",
+   "texto": "Travou numa dúvida às 23h? A IA da MedSum responde com base no que você está estudando, com até 80 perguntas por dia. Não substitui o resumo nem o professor, mas tira a dúvida na hora e deixa o estudo andar. Cupom {cupom}: {link}"
+  },
+  {
+   "id": "2026-11-12-5",
+   "publico": "geral",
+   "cat": "amigos",
+   "titulo": "Liga da semana",
+   "quando": "Sexta",
+   "destino": "/amigos.html",
+   "texto": "Estudar fica mais leve acompanhado. Na MedSum você acompanha os amigos, entra em desafios de lista e sobe na Liga da semana, do Ambulatório até a UTI. Chama a turma e vê quem chega mais longe: {link} (cupom {cupom})"
+  },
+  {
+   "id": "2026-11-12-6",
+   "publico": "geral",
+   "cat": "estudo",
+   "titulo": "Voltar no erro",
+   "quando": "Sábado",
+   "destino": "/flashcards.html",
+   "texto": "Errar questão faz parte; o que faz diferença é voltar no erro. O Caderno de Erros guarda o que você errou e a Revisão do dia traz de volta na hora certa, junto com os flashcards. Sábado é bom para organizar a semana: {link}. Cupom {cupom}."
+  },
+  {
+   "id": "2026-11-12-7",
+   "publico": "geral",
+   "cat": "radar",
+   "titulo": "O que mudou essa semana",
+   "quando": "Domingo",
+   "destino": "/radar.html",
+   "texto": "Domingo é dia de planejar a semana, e saber o que mudou nas diretrizes ajuda a estudar o que importa. O Radar da MedSum chega toda segunda de manhã, grátis, com as novidades conferidas nas fontes oficiais e uma questão da semana. Receba no seu e-mail: {link}"
+  }
+ ],
+ "videos": [],
+ "imagens": [
+  {
+   "titulo": "Segunda-feira de questão",
+   "estilo": "minimal",
+   "ideia": "fundo vinho com detalhe dourado, selo NA PROVA, celular com uma questão aberta ao lado de um café"
+  },
+  {
+   "titulo": "Revisão que cabe na véspera",
+   "estilo": "colagem",
+   "cena": "study_with_me",
+   "ideia": "páginas de resumo com marca-texto, post-its e caneta"
+  },
+  {
+   "titulo": "Seu semestre, organizado",
+   "estilo": "foto",
+   "cena": "biblioteca",
+   "ideia": "mesa de estudo com iPad e jaleco na cadeira"
+  },
+  {
+   "titulo": "Dúvida de madrugada? Pergunte",
+   "estilo": "3d",
+   "ideia": "bonequinho estudando com balão de pergunta e brilho dourado"
+  },
+  {
+   "titulo": "Liga da semana",
+   "estilo": "ilustracao",
+   "cena": "turma",
+   "ideia": "pódio Ambulatório, Enfermaria, UTI com três avatares"
+  },
+  {
+   "titulo": "Voltar no erro",
+   "estilo": "flash",
+   "cena": "ipad_caneta",
+   "ideia": "caderno aberto com anotações em vermelho e flashcards espalhados"
+  },
+  {
+   "titulo": "O que mudou essa semana",
+   "estilo": "filme",
+   "cena": "cafe_manha",
+   "ideia": "caderno e café numa mesa de domingo, tom quente, selo Atualizou! dourado"
+  }
+ ]
+}
