@@ -1,0 +1,42 @@
+{
+  "data": "2026-11-13",
+  "gerado_em": "2026-11-13T07:18:15-03:00",
+  "itens": [
+    {
+      "area": "Cardiologia",
+      "fonte": "Ministério da Saúde/CONITEC 2026 (Portaria SCTIE/MS nº 74/2026)",
+      "titulo": "Eplerenona incorporada ao SUS na insuficiência cardíaca com fração de ejeção reduzida",
+      "o_que_mudou": "Antes, o único antagonista da aldosterona disponível no SUS para a IC com fração de ejeção reduzida era a espironolactona. Agora a eplerenona foi incorporada para adultos com ICFEr, classe funcional NYHA II a IV, que não toleram a espironolactona (por exemplo, por ginecomastia ou mastalgia). A oferta depende de protocolo clínico a ser elaborado, com prazo de até 180 dias.",
+      "prova": "Eplerenona é o antagonista mineralocorticoide seletivo, com menos efeito antiandrogênico: é a troca indicada quando a espironolactona causa ginecomastia, mantendo o cuidado com hipercalemia e função renal.",
+      "roteiro": "Seu paciente com insuficiência cardíaca desenvolveu ginecomastia com a espironolactona. E agora? Agora o SUS tem resposta. O Ministério da Saúde publicou nesta quinta a incorporação da eplerenona para adultos com insuficiência cardíaca de fração de ejeção reduzida, classes dois a quatro da NYHA, que não toleram a espironolactona. Antes, a espironolactona era a única opção de antagonista da aldosterona na rede pública. A eplerenona é mais seletiva, tem menos efeito antiandrogênico, então causa bem menos ginecomastia e alteração sexual. Na prova, guarde assim: efeito adverso hormonal da espironolactona, troca por eplerenona. E não esqueça que as duas podem causar hipercalemia, então potássio e função renal precisam ser monitorados. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.in.gov.br/web/dou/-/portaria-sctie/ms-n-74-de-10-de-novembro-de-2026-743864361"
+    },
+    {
+      "area": "Oncologia",
+      "fonte": "Ministério da Saúde/CONITEC 2026 (Consulta Pública SCTIE/MS nº 110/2026)",
+      "titulo": "Consulta pública: trastuzumabe deruxtecana no câncer de mama HER2-positivo metastático já tratado com anti-HER2",
+      "o_que_mudou": "Hoje o SUS não oferece o trastuzumabe deruxtecana. Foi aberta consulta pública (20 dias, a partir de 13/11) sobre incorporá-lo no câncer de mama HER2-positivo metastático ou irressecável em pacientes já tratadas com terapia anti-HER2. A recomendação preliminar da CONITEC ainda não estava publicada no momento da conferência.",
+      "prova": "Câncer de mama HER2-positivo se trata com terapia anti-HER2 (trastuzumabe como base); o trastuzumabe deruxtecana é um conjugado anticorpo-droga usado após progressão.",
+      "roteiro": "Câncer de mama HER2 positivo metastático pode ganhar uma nova opção no SUS, e você pode opinar. O Ministério da Saúde abriu nesta sexta uma consulta pública sobre o trastuzumabe deruxtecana para pacientes com câncer de mama HER2 positivo metastático ou irressecável que já usaram terapia anti-HER2. Hoje esse medicamento não está disponível na rede pública. Ele é um conjugado anticorpo-droga: o anticorpo leva o quimioterápico direto até a célula que expressa HER2. Para a prova, o raciocínio base continua o mesmo: tumor HER2 positivo recebe terapia anti-HER2, com o trastuzumabe como pilar. E fique de olho: o efeito adverso que mais cai com o deruxtecana é a doença pulmonar intersticial. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.in.gov.br/web/dou/-/consulta-publica-sctie/ms-n-110-de-10-de-novembro-de-2026-744158733",
+      "consulta_publica": true
+    },
+    {
+      "area": "Neurologia",
+      "fonte": "Ministério da Saúde/CONITEC 2026 (Portaria SCTIE/MS nº 75/2026)",
+      "titulo": "Toxina botulínica A não incorporada ao SUS para profilaxia da migrânea crônica",
+      "o_que_mudou": "A proposta era oferecer a toxina botulínica A a adultos com migrânea crônica que falharam, não toleraram ou têm contraindicação a pelo menos três profiláticos. A decisão final foi de não incorporar, por falta de linha de cuidado para migrânea, incerteza sobre a população e impacto orçamentário. Na prática nada muda: segue sem oferta no SUS.",
+      "prova": "Migrânea crônica é cefaleia em 15 ou mais dias por mês por mais de 3 meses, com pelo menos 8 dias com características de migrânea; profilaxia de primeira linha com betabloqueador, amitriptilina ou topiramato.",
+      "roteiro": "Toxina botulínica para enxaqueca crônica no SUS? A resposta oficial saiu e é não. O Ministério da Saúde publicou nesta quinta a decisão de não incorporar a toxina botulínica A para prevenir a migrânea crônica em adultos que já falharam em pelo menos três remédios preventivos. Os motivos foram a falta de uma linha de cuidado para enxaqueca, incerteza sobre quem seria elegível e o impacto no orçamento. Então nada muda na rede pública. Para a prova, o que cai é a definição: migrânea crônica é dor de cabeça em quinze ou mais dias por mês, por mais de três meses, com pelo menos oito dias com cara de enxaqueca. E a profilaxia clássica começa com propranolol, amitriptilina ou topiramato. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.in.gov.br/web/dou/-/portaria-sctie/ms-n-75-de-10-de-novembro-de-2026-743876600"
+    }
+  ],
+  "fontes_conferidas": 37,
+  "fontes_que_nao_abriram": [
+    "ACOG (erro 402)",
+    "ESMO (página sem conteúdo)",
+    "NCCN (erro 403)",
+    "IDSA (lista não carregou)",
+    "AAP (lista sem datas)"
+  ]
+}
