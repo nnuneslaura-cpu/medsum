@@ -1,0 +1,28 @@
+{
+  "edicao": 6,
+  "id_banco": "aicm-2026-e78a1-q095",
+  "banca": "AICM 2026 (Rede Inspirali), E7 e 8, questão 95",
+  "pergunta_resumo": "Homem de 52 anos, assintomático e sem história familiar relevante, pede check-up com PSA após ouvir falar de câncer de próstata. Qual competência clínica deve ser usada para analisar esse pedido e evitar intervenções desnecessárias?",
+  "alternativas": {
+    "A": "Dominar a abordagem preventiva de fatores de risco cardiovascular, como tabagismo e obesidade.",
+    "B": "Analisar o fenômeno do sobrediagnóstico e sobretratamento que ocorre com o processo de rastreamento.",
+    "C": "Dominar a realização da anamnese e exame físico focados nos problemas musculoesqueléticos mais frequentes.",
+    "D": "Coordenar a busca ativa de contactantes e realizar bloqueios em casos de surtos ou endemias.",
+    "E": "Dominar os fluxos da vigilância epidemiológica de doenças infecciosas."
+  },
+  "gabarito": "B",
+  "gabarito_texto": "Analisar o fenômeno do sobrediagnóstico e sobretratamento que ocorre com o processo de rastreamento.",
+  "comentario": "O gabarito continua B. O Ministério da Saúde e o INCA não recomendam rastreamento populacional do câncer de próstata com PSA, porque o exame encontra muitos tumores que nunca causariam sintomas (sobrediagnóstico) e leva a tratamentos com incontinência e disfunção erétil sem ganho claro de sobrevida (sobretratamento). Por isso, o médico precisa explicar benefícios e danos antes de pedir o exame, que é a base da decisão compartilhada. O que mudou nesta semana foi a diretriz da American Cancer Society (12/11/2026): ela passou a recomendar PSA a cada 2 anos para homens de risco médio de 50 a 69 anos, e anual para homens negros de 45 a 69 anos. Essa recomendação vale para o cenário americano e não troca a orientação brasileira que a banca cobra.",
+  "por_que_nao": {
+    "A": "Controlar tabagismo e obesidade é prevenção cardiovascular, e não responde ao pedido específico de rastreamento de próstata.",
+    "C": "Anamnese musculoesquelética não tem relação com o pedido de PSA para câncer de próstata.",
+    "D": "Busca de contactantes e bloqueios são medidas de surtos e endemias, e não se aplicam ao rastreamento de câncer.",
+    "E": "Fluxos de vigilância de doenças infecciosas não se aplicam a esse paciente assintomático."
+  },
+  "bonus_pergunta": "Pela diretriz da ACS de 2026, para qual faixa de idade e com qual intervalo o PSA é recomendado a um homem de risco médio?",
+  "bonus": "Homens de 50 a 69 anos, com PSA a cada 2 anos. Antes de pedir o exame, o médico deve explicar benefícios, limites e danos, como a diretriz americana pede.",
+  "fonte": "ACS · Prostate cancer screening guideline 2026 (CA: A Cancer Journal for Clinicians, 12/11/2026) · https://pressroom.cancer.org/prostate-cancer-screening-guideline-update-2026",
+  "tema": "Níveis de prevenção e prevenção quaternária",
+  "subtema": "PSA: sobrediagnóstico e sobretratamento",
+  "origem": "Oficial"
+}
