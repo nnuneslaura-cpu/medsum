@@ -1,0 +1,52 @@
+{
+  "data": "2026-11-16",
+  "gerado_em": "2026-11-16T07:14:31-03:00",
+  "itens": [
+    {
+      "area": "Pediatria / Endocrinologia",
+      "fonte": "OMS 2026",
+      "titulo": "Primeira diretriz da OMS para diabetes tipo 1 em crianças e adolescentes",
+      "o_que_mudou": "Antes a OMS não tinha diretriz própria para DM1 em menores de 19 anos. Agora recomenda esquema basal-bolus, dose inicial de insulina de 0,5 a 1,0 UI/kg/dia, insulina regular humana (preferida aos análogos rápidos) e NPH ou análogo longo como basal, glicemia capilar 4 ou mais vezes ao dia e meta de HbA1c entre 6,5% e 7,2% quando segura. Na cetoacidose: critérios glicemia ≥200 mg/dL, pH venoso <7,3 e/ou bicarbonato <15 e cetose; expansão com SF 0,9% 10 a 20 mL/kg em 30 a 60 min se choque, sempre antes da insulina; rastrear retinopatia e nefropatia a partir dos 11 anos (ou 5 e 2 anos após o diagnóstico, respectivamente).",
+      "prova": "Na CAD pediátrica, o volume vem antes da insulina e o diagnóstico exige a tríade hiperglicemia + acidose (pH <7,3 ou HCO3 <15) + cetose.",
+      "roteiro": "A OMS acabou de lançar a primeira diretriz dela só para diabetes tipo 1 em crianças e adolescentes. Anota os números: insulina começa com 0,5 a 1 unidade por quilo por dia, em esquema basal-bolus, e a OMS aceita insulina regular humana e NPH, porque funcionam e são mais baratas. Meta de hemoglobina glicada entre 6,5 e 7,2 por cento, quando dá para atingir sem hipoglicemia, com glicemia capilar quatro ou mais vezes ao dia. E o que mais cai na prova: cetoacidose. Glicemia acima de 200, pH venoso menor que 7,3 ou bicarbonato menor que 15, e cetose. Se a criança está em choque, soro fisiológico 10 a 20 mL por quilo em 30 a 60 minutos, e o volume vem antes da insulina. Rastreio de retinopatia e nefropatia a partir dos 11 anos. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.who.int/publications/i/item/9789240126121"
+    },
+    {
+      "area": "Endocrinologia / Clínica Médica",
+      "fonte": "OMS 2026",
+      "titulo": "Primeira diretriz da OMS sobre uso de insulina no diabetes tipo 1 em adultos, inclusive em emergências e crises humanitárias",
+      "o_que_mudou": "Lançada no Dia Mundial do Diabetes (14/11), é a primeira orientação da OMS específica para DM1 no adulto. Recomenda várias aplicações diárias de insulina com ajuste pela glicemia, considera a insulina humana uma opção adequada e eficaz (outras insulinas quando necessário) e monitorização por HbA1c no serviço e glicemia capilar ou sensor contínuo em casa; sem glicemia disponível, a glicosúria pode ser usada.",
+      "prova": "DM1 exige insulina em múltiplas doses diárias ajustadas pela glicemia, e a insulina humana segue como opção válida e eficaz.",
+      "roteiro": "No Dia Mundial do Diabetes, a OMS lançou a primeira diretriz dela sobre insulina no diabetes tipo 1 em adultos. A mensagem é simples: várias aplicações de insulina por dia, com a dose ajustada pela glicemia. E a OMS deixa claro que a insulina humana é uma opção adequada e eficaz, o que importa muito para o SUS. O acompanhamento é com hemoglobina glicada no serviço e, em casa, glicemia capilar ou sensor contínuo. Onde não houver glicemia, dá para usar glicose na urina. Na prova, lembra: diabetes tipo 1 é deficiência absoluta de insulina, então o tratamento é insulina em múltiplas doses, e não existe fazer só comprimido. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.who.int/news/item/14-11-2026-who-issues-first-guidelines-on-type-1-diabetes-for-adults"
+    },
+    {
+      "area": "Pediatria / Gastroenterologia",
+      "fonte": "Ministério da Saúde/CONITEC 2026 (Consulta Pública SCTIE/MS nº 109/2026)",
+      "titulo": "Consulta pública: odevixibate para colestase intra-hepática familiar progressiva (CIFP/PFIC)",
+      "o_que_mudou": "Consulta pública aberta de 13/11 a 02/12/2026 sobre incorporar ao SUS o odevixibate, inibidor do transportador ileal de ácidos biliares, para a colestase intra-hepática familiar progressiva. Hoje o SUS não oferece esse medicamento para a doença; ainda não há decisão final, que sai depois da consulta.",
+      "prova": "A CIFP é causa genética de colestase com prurido intenso na infância, e os inibidores do transportador ileal de ácidos biliares reduzem os ácidos biliares séricos e o prurido.",
+      "roteiro": "Está aberta uma consulta pública no SUS sobre um remédio para uma doença rara do fígado que cai em pediatria: a colestase intra-hepática familiar progressiva. O medicamento é o odevixibate, que bloqueia a reabsorção de ácidos biliares no íleo e assim diminui o prurido, que nessas crianças é intenso a ponto de atrapalhar o sono. A consulta vai até 2 de dezembro e a decisão final só sai depois. Na prova, pensa nessa doença quando aparecer lactente com colestase, prurido importante e, em alguns tipos, GGT normal ou baixa, o que ajuda a diferenciar de atresia de vias biliares. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.gov.br/conitec/pt-br/assuntos/participacao-social/consultas-publicas/vigentes"
+    }
+  ],
+  "fontes_conferidas": 27,
+  "fontes_que_nao_abriram": [
+    "CONITEC notícias (lista não carregou)",
+    "Diário Oficial da União (erro 502)",
+    "Calendário Nacional de Vacinação (conteúdo restrito)",
+    "ANVISA (lista de notícias não carregou)",
+    "SBEM (erro 503)",
+    "SBPT (redirecionamento para imagem)",
+    "FEBRASGO (lista não carregou)",
+    "SBCO (erro 404)",
+    "OPAS (erro 404)",
+    "NICE (erro 403)",
+    "IDSA (lista não carregou)",
+    "ACOG (erro 402)",
+    "AAP (lista não carregou)",
+    "ESMO (página vazia)",
+    "NCCN (erro 403)",
+    "EASL (erro 404)"
+  ]
+}
