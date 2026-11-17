@@ -1,0 +1,39 @@
+{
+  "data": "2026-11-17",
+  "gerado_em": "2026-11-17T07:12:06-03:00",
+  "itens": [
+    {
+      "area": "Pneumologia / Clínica Médica",
+      "fonte": "GOLD 2027",
+      "titulo": "Relatório GOLD 2027 para DPOC",
+      "o_que_mudou": "Antes, o grupo A podia começar com qualquer broncodilatador, de curta ou longa ação. Agora todo paciente do grupo A deve iniciar com LAMA (o broncodilatador de curta ação fica só para quando o LAMA não estiver disponível ou acessível). O relatório também redefine pré-DPOC, DPOC leve e DPOC no jovem, sugere TC de tórax ao menos uma vez em todo paciente com DPOC onde houver, e reforça o risco cardiovascular aumentado após exacerbação de qualquer gravidade; o diagnóstico segue exigindo VEF1/CVF pós-broncodilatador menor que 0,7.",
+      "prova": "Grupo A da GOLD agora começa com LAMA, e o diagnóstico de DPOC continua sendo VEF1/CVF pós-broncodilatador menor que 0,7.",
+      "roteiro": "Saiu o GOLD 2027 e mudou a primeira resposta da questão de DPOC grupo A. Até agora, o grupo A, aquele paciente com poucos sintomas e sem exacerbação, começava com qualquer broncodilatador, de curta ou de longa ação. No GOLD 2027, todo paciente do grupo A deve começar com LAMA, o antimuscarínico de longa ação, como o tiotrópio. Broncodilatador de curta ação só se o LAMA não estiver disponível. O que não mudou: o diagnóstico continua exigindo relação VEF1 sobre CVF menor que 0,7 depois do broncodilatador. E tem mais: o relatório recomenda tomografia de tórax pelo menos uma vez em todo paciente com DPOC, quando disponível, e lembra que depois de qualquer exacerbação o risco cardiovascular sobe. Na prova: grupo A, LAMA. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://goldcopd.org/2027-gold-report/"
+    },
+    {
+      "area": "Infectologia / Preventiva",
+      "fonte": "Ministério da Saúde 2026 (Nota Técnica Conjunta nº 403/2026-DPNI/SVSA/MS)",
+      "titulo": "Vacina contra mpox: dose intradérmica fracionada para PrEP e técnicos de laboratório",
+      "o_que_mudou": "Antes todos recebiam a MVA-BN em 0,5 mL subcutâneo, 2 doses com 28 dias de intervalo. Agora usuários de PrEP e técnicos de laboratório sem HIV e sem imunodeficiência recebem 0,1 mL intradérmico, também em 2 doses com 28 dias, enquanto pessoas vivendo com HIV e imunossuprimidos mantêm 0,5 mL subcutâneo. A nota é do início de novembro e foi retomada pelo Ministério em 16/11, junto com a pós-exposição para 18 a 49 anos, de preferência até 4 dias e no máximo 14 dias após o contato.",
+      "prova": "Dose intradérmica de 0,1 mL só para quem não tem HIV nem imunossupressão; PVHA sempre 0,5 mL subcutâneo, e pós-exposição ideal em até 4 dias (máximo 14).",
+      "roteiro": "Mudou o jeito de aplicar a vacina de mpox no SUS. Antes era todo mundo igual: meio mililitro, por via subcutânea, duas doses com 28 dias de intervalo. Agora, quem usa PrEP e técnicos de laboratório que manipulam amostras de mpox, desde que não tenham HIV nem imunossupressão, recebem um décimo de mililitro por via intradérmica, também em duas doses. Já quem vive com HIV ou é imunossuprimido continua com o meio mililitro subcutâneo, seja qual for o CD4. E a pós-exposição vale para quem tem de 18 a 49 anos, de preferência até 4 dias depois do contato, no máximo até 14 dias se a pessoa estiver sem sintomas. Na prova: intradérmica só para quem não tem HIV. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2026/nota-tecnica-conjunta-no-4032026-dpni-svsa-ms.pdf"
+    }
+  ],
+  "fontes_conferidas": 28,
+  "fontes_que_nao_abriram": [
+    "Diário Oficial da União (erro 502)",
+    "ANVISA (lista de notícias não carregou)",
+    "SBEM (erro 503)",
+    "FEBRASGO (lista não carregou)",
+    "AHA (erro 403)",
+    "ADA (erro 403)",
+    "NICE (erro 403)",
+    "ACOG (erro 402)",
+    "AAP (erro 403)",
+    "NCCN (erro 403)",
+    "EASL (erro 404)",
+    "ESMO (página vazia)"
+  ]
+}
