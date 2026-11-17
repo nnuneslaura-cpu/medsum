@@ -35,5 +35,10 @@
     "NCCN (erro 403)",
     "EASL (erro 404)",
     "ESMO (página vazia)"
-  ]
+  ],
+  "email": {
+    "status": "enviado",
+    "em": "2026-11-17T07:12:52-03:00",
+    "assunto": "📰 Radar do dia · 17/11: 2 novidade(s)"
+  }
 }
