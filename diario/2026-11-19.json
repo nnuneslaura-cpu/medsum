@@ -1,0 +1,33 @@
+{
+  "data": "2026-11-19",
+  "gerado_em": "2026-11-19T07:14:33-03:00",
+  "itens": [
+    {
+      "area": "Pneumologia",
+      "fonte": "GOLD 2027",
+      "titulo": "Relatório GOLD 2027 para DPOC: LAMA para todo paciente do grupo A",
+      "o_que_mudou": "Antes, o paciente do grupo A (poucos sintomas e sem exacerbações relevantes) recebia um broncodilatador, de curta ou de longa ação, à escolha. Agora o GOLD 2027 diz que todo paciente do grupo A deve receber LAMA como tratamento inicial, e o broncodilatador de curta ação fica para quando o LAMA não estiver disponível. O relatório também abandona o termo 'DPOC precoce', sugere TC de tórax ao menos uma vez onde houver acesso (sem substituir a espirometria) e traz uma seção conjunta com a GINA sobre asma e DPOC.",
+      "prova": "DPOC grupo A: tratamento inicial é LAMA; a espirometria continua obrigatória para o diagnóstico.",
+      "roteiro": "Se você ainda trata o grupo A de DPOC com qualquer broncodilatador, o GOLD 2027 acabou de mudar isso. Até agora, no grupo A, servia um broncodilatador de curta ou de longa ação. No relatório 2027, a recomendação ficou clara: todo paciente do grupo A começa com LAMA, o antimuscarínico de longa ação. O de curta ação só entra se o LAMA não estiver disponível. Outra mudança: o termo DPOC precoce não deve mais ser usado, e o GOLD sugere uma tomografia de tórax ao menos uma vez onde houver acesso, mas lembre: o diagnóstico continua sendo pela espirometria. Na prova, guarde assim: grupo A, LAMA; diagnóstico, espirometria. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://goldcopd.org/2027-gold-report/"
+    },
+    {
+      "area": "Infectologia / Imunizações",
+      "fonte": "Ministério da Saúde 2026 (Nota Técnica Conjunta nº 405/2026-CGVDI-CGICI/DPNI/SVSA/MS)",
+      "titulo": "Alerta de sarampo para viajantes ao Peru e reforço do esquema vacinal",
+      "o_que_mudou": "O esquema não mudou, mas a nota reforça o alerta: o Peru tem transmissão ativa, e os surtos no Amazonas e no Acre estão ligados ao país (65 casos confirmados no Brasil até 03/11). Quem vai viajar deve se vacinar de preferência até 15 dias antes: 2 doses dos 12 meses aos 29 anos, 1 dose dos 30 aos 59 anos e 2 doses para trabalhador da saúde em qualquer idade. O caso suspeito deve ser notificado em até 24 horas, com bloqueio vacinal rápido.",
+      "prova": "Sarampo: 2 doses até 29 anos, 1 dose de 30 a 59 anos, 2 doses para profissional de saúde; notificação em até 24 horas.",
+      "roteiro": "Sarampo voltou a preocupar, e o Ministério da Saúde soltou um alerta novo. A nota técnica 405 de 2026 fala de quem vai viajar para o Peru, que tem transmissão ativa, e os surtos no Amazonas e no Acre estão ligados a lá. O esquema não mudou, e é exatamente isso que cai na prova: duas doses dos 12 meses aos 29 anos, uma dose dos 30 aos 59, e duas doses para profissional de saúde em qualquer idade. A vacina deve ser feita de preferência pelo menos 15 dias antes da viagem. E o caso suspeito, febre com exantema e tosse, coriza ou conjuntivite, tem notificação em até 24 horas, com bloqueio vacinal. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2026/nota-tecnica-conjunta-no-4052026-cgvdi-cgici-dpni-svsa-ms.pdf/view"
+    }
+  ],
+  "fontes_conferidas": 33,
+  "fontes_que_nao_abriram": [
+    "Diário Oficial da União (erro 502)",
+    "SBEM (site fora do ar)",
+    "ADA (404/403)",
+    "ACOG (402)",
+    "AAP (conteúdo não carregou)",
+    "NCCN (403/404)"
+  ]
+}
