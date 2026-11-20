@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-20",
+ "gerado_em": "2026-11-20T07:13:04-03:00",
+ "itens": [],
+ "fontes_conferidas": 31,
+ "fontes_que_nao_abriram": [
+  "Diário Oficial da União (erro 502)",
+  "ANVISA (lista de notícias não carregou)",
+  "SBEM (erro 503)",
+  "ADA (erro 403)",
+  "NICE (erro 403)",
+  "ACOG (erro 402)",
+  "NCCN (erro 403)"
+ ],
+ "blog": {
+  "importante": false,
+  "motivo": "Nenhuma diretriz nova ou atualizada com mudança de conduta foi publicada nas fontes oficiais entre 18 e 20/11."
+ }
+}
