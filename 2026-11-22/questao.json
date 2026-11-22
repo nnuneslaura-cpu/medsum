@@ -1,0 +1,27 @@
+{
+  "edicao": 7,
+  "id_banco": "amrigs-2025-q06",
+  "banca": "AMRIGS 2025 (FUNDATEC), R1 acesso direto, questão 6",
+  "pergunta_resumo": "Sobre o rastreio do câncer de próstata, avaliar três afirmações sobre a idade de início (45 anos para todos, 40 anos para grupo de risco) e o limite de idade (70 anos).",
+  "enunciado": "Em relação ao rastreio para o câncer de próstata, analise as assertivas a seguir e assinale a alternativa correta.\n\nI. Homens a partir de 45 anos, mesmo sem apresentar sintomas, devem procurar o médico para avaliação individualizada, tendo como objetivo o diagnóstico precoce do câncer de próstata.\nII. Homens que integram o grupo de risco (raça negra ou com parentes de primeiro grau com câncer de próstata) devem começar seus exames mais precocemente, a partir dos 40 anos.\nIII. Após os 70 anos, somente homens com perspectiva de vida maior do que 10 anos poderão fazer essa avaliação.",
+  "alternativas": {
+    "A": "Todas as assertivas estão corretas.",
+    "B": "Todas as assertivas estão incorretas.",
+    "C": "Apenas a assertiva II está correta.",
+    "D": "Apenas a assertiva III está correta."
+  },
+  "gabarito": "B",
+  "gabarito_texto": "Todas as assertivas estão incorretas.",
+  "comentario": "O gabarito continua B. Pelas Diretrizes Brasileiras Conjuntas (SBU, SBOC, SBP, SBRT, SBMN e CBR, divulgadas em 17/11/2026), a avaliação começa aos 50 anos para o homem de risco habitual, aos 45 anos para quem é de raça negra, tem história familiar significativa ou variante germinativa conhecida, e aos 40 anos só para portadores de BRCA. Por isso a assertiva I erra ao pôr 45 anos para todos, e a II erra ao pôr 40 anos para negros e para quem tem parente de 1º grau. Na III, a diretriz diz que, acima dos 75 anos (e não 70), o rastreamento é individualizado e depende de expectativa de vida maior que 10 anos e boas condições clínicas. Lembre que o Ministério da Saúde e o INCA não recomendam rastreamento populacional em homem sem sintomas; quando o homem pede o exame, a orientação é a decisão compartilhada.",
+  "por_que_nao": {
+    "A": "As três assertivas trocam as idades da diretriz: 45 e 40 anos não valem para o risco habitual, e o limite é 75 anos, não 70.",
+    "C": "A assertiva II está errada: raça negra e história familiar antecipam o início para 45 anos, e os 40 anos ficam para portadores de BRCA.",
+    "D": "A assertiva III está errada: o ponto de corte é 75 anos, e não 70."
+  },
+  "bonus_pergunta": "Pela diretriz conjunta de 2026, a partir de qual idade o rastreamento começa em um homem portador de variante de BRCA? E que valor de PSA é o corte de decisão?",
+  "bonus": "A partir dos 40 anos. O corte de decisão do PSA no fluxograma é 3 ng/mL: acima dele, repete-se o exame em 4 a 6 semanas e, se continuar alto, o paciente vai ao urologista, que pede ressonância magnética antes da biópsia.",
+  "fonte": "Diretrizes Brasileiras Conjuntas das Sociedades para o tratamento do Câncer da Próstata, versão 1.2026 (SBU, SBOC, SBP, SBRT, SBMN, CBR e Instituto Oncoguia, 17/11/2026) · https://sboc.org.br/wp-content/uploads/2026/11/Diretrizes_Prostata.pdf",
+  "tema": "Rastreamento de câncer",
+  "subtema": "Câncer de próstata: idade de início da avaliação e grupos de risco",
+  "origem": "Oficial"
+}
