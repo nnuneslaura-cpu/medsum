@@ -1,0 +1,21 @@
+{
+ "data": "2026-11-23",
+ "gerado_em": "2026-11-23T07:12:23-03:00",
+ "itens": [],
+ "fontes_conferidas": 28,
+ "fontes_que_nao_abriram": [
+  "Diário Oficial da União (erro 502; atos de 19/11 conferidos pela Legislação Diária do Conasems)",
+  "ANVISA (lista de notícias não carregou; alertas com erro 404)",
+  "FEBRASGO (lista de notícias não carregou)",
+  "NICE (erro 403)",
+  "ACOG (erro 402)",
+  "AAP (lista de notícias não carregou)",
+  "ESMO (página vazia)",
+  "NCCN (erro 403)",
+  "EASL (erro 404)"
+ ],
+ "blog": {
+  "importante": false,
+  "motivo": "Nenhuma diretriz nova ou atualizada com mudança de conduta foi publicada nas fontes oficiais entre 20 e 23/11."
+ }
+}
