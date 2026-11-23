@@ -17,5 +17,10 @@
  "blog": {
   "importante": false,
   "motivo": "Nenhuma diretriz nova ou atualizada com mudança de conduta foi publicada nas fontes oficiais entre 20 e 23/11."
+ },
+ "email": {
+  "status": "enviado",
+  "em": "2026-11-23T07:12:45-03:00",
+  "assunto": "📰 Radar do dia · 23/11: nada novo"
  }
 }
