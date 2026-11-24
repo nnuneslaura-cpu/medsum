@@ -27,5 +27,10 @@
  "blog": {
   "importante": false,
   "motivo": "O único item do dia é um relatório clínico cujo resumo oficial não detalha os novos intervalos de exame e o texto completo não abriu (erro 403), então não dá para afirmar com segurança o que muda na conduta."
+ },
+ "email": {
+  "status": "enviado",
+  "em": "2026-11-24T07:13:42-03:00",
+  "assunto": "📰 Radar do dia · 24/11: 1 novidade"
  }
 }
