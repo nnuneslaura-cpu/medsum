@@ -1,0 +1,31 @@
+{
+ "data": "2026-11-24",
+ "gerado_em": "2026-11-24T07:13:02-03:00",
+ "itens": [
+  {
+   "area": "Pediatria (Reumatologia e Oftalmologia)",
+   "fonte": "AAP 2026 (com AAO e AAPOS)",
+   "titulo": "Relatório clínico da AAP: rastreio oftalmológico na artrite idiopática juvenil e no uso de hidroxicloroquina",
+   "o_que_mudou": "A Academia Americana de Pediatria, junto com as sociedades de oftalmologia, publicou em 23/11 um relatório clínico novo que orienta com que frequência e com quais testes examinar os olhos de crianças com artrite idiopática juvenil (AIJ), com uveíte associada à AIJ ou em uso de hidroxicloroquina. O texto reforça que o rastreio regular reduz o risco de perda visual por complicações da doença ou toxicidade do remédio. Para a hidroxicloroquina, recomenda seguir a dose de adulto, abaixo de 5 mg/kg de peso real, até haver dados próprios para crianças.",
+   "prova": "Criança com AIJ precisa de exame oftalmológico periódico com lâmpada de fenda mesmo sem sintomas, porque a uveíte costuma ser silenciosa; e hidroxicloroquina exige exame de retina e dose abaixo de 5 mg/kg de peso real.",
+   "roteiro": "Sabia que a uveíte da artrite idiopática juvenil pode cegar sem dar nenhum sintoma? Pois é, e saiu orientação nova sobre isso. A Academia Americana de Pediatria, junto com as sociedades de oftalmologia, publicou um relatório clínico só sobre o exame dos olhos dessas crianças. Ele orienta a frequência e os testes do rastreio para quem tem artrite idiopática juvenil, para quem já teve uveíte e para quem usa hidroxicloroquina. Na hidroxicloroquina, o recado é seguir a dose de adulto, abaixo de 5 miligramas por quilo de peso real, por causa do risco de toxicidade na retina. Na prova, guarde assim: a uveíte da AIJ é silenciosa, então o exame com lâmpada de fenda é periódico mesmo com a criança sem queixa, e a família precisa manter as consultas mesmo com a artrite controlada. Toda segunda tem o Radar de Diretrizes, link na bio.",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43068708/"
+  }
+ ],
+ "fontes_conferidas": 33,
+ "fontes_que_nao_abriram": [
+  "Diário Oficial da União (erro 502)",
+  "ANVISA (lista de notícias e alertas não carregou)",
+  "SBEM (erro 503)",
+  "FEBRASGO (lista de notícias não carregou)",
+  "NICE (erro 403)",
+  "ACOG (erro 402)",
+  "ESMO (erro 404 / página sem lista)",
+  "NCCN (erro 403)",
+  "AAP (site com erro 403; publicação conferida pelo registro oficial no PubMed)"
+ ],
+ "blog": {
+  "importante": false,
+  "motivo": "O único item do dia é um relatório clínico cujo resumo oficial não detalha os novos intervalos de exame e o texto completo não abriu (erro 403), então não dá para afirmar com segurança o que muda na conduta."
+ }
+}
