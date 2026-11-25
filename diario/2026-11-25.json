@@ -54,5 +54,10 @@
   "blog": {
     "importante": false,
     "motivo": "Nenhum item muda conduta cobrada na prova: a nota do MS só orienta a leitura da nova seringa, o documento da SBP não pôde ser lido na íntegra e as decisões do NICE são avaliações de incorporação no sistema inglês."
+  },
+  "email": {
+    "status": "enviado",
+    "em": "2026-11-25T07:17:56-03:00",
+    "assunto": "📰 Radar do dia · 25/11: 4 novidades"
   }
 }
