@@ -1,0 +1,58 @@
+{
+  "data": "2026-11-25",
+  "gerado_em": "2026-11-25T07:16:32-03:00",
+  "itens": [
+    {
+      "area": "Preventiva (Imunizações) e Infectologia",
+      "fonte": "Ministério da Saúde (SVSA/DPNI) 2026",
+      "titulo": "Nota Técnica nº 153/2026: nova seringa preenchida da imunoglobulina anti-hepatite B no SUS",
+      "o_que_mudou": "O Ministério da Saúde passa a fornecer a imunoglobulina humana anti-hepatite B (IGHAHB) da CSL Behring em seringa preenchida de 200 UI (1 mL). A nota, publicada em 23/11, alerta que cada marcação da escala vale 0,1 mL, seja bloco preto ou espaço transparente, e que ler errado pode causar erro de dose quando o volume prescrito é menor que 1 mL. Indicações e doses não mudam: seguem os protocolos nacionais, como profilaxia pós-exposição e prevenção da transmissão vertical da hepatite B.",
+      "prova": "A IGHAHB é imunização passiva (anticorpos anti-HBs) e é usada junto com a vacina na profilaxia pós-exposição e no recém-nascido de mãe HBsAg positiva; conservar entre 2 e 8 °C, sem congelar.",
+      "roteiro": "Você sabe ler a seringa da imunoglobulina contra hepatite B? O Ministério da Saúde soltou uma nota técnica nesta semana porque o SUS passou a usar uma nova seringa preenchida, de 200 UI em 1 mL. O detalhe: a escala tem blocos pretos e espaços transparentes, e cada marcação, de qualquer cor, vale 0,1 mL. Quem lê errado pode dar a dose errada quando a prescrição é menor que 1 mL. A indicação não mudou. A imunoglobulina é imunização passiva, com anticorpo anti-HBs pronto, e na prova ela aparece junto com a vacina: na exposição de risco em quem não é imune e no recém-nascido de mãe HBsAg positiva, idealmente nas primeiras horas de vida. E lembra: geladeira de 2 a 8 graus, nunca congelar. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2026/nota-tecnica-no-153.pdf/view"
+    },
+    {
+      "area": "Pediatria (Neonatologia)",
+      "fonte": "SBP 2026",
+      "titulo": "Documento científico da SBP: citomegalovírus (CMV) na neonatologia, infecção congênita, pós-natal e implicações clínicas",
+      "o_que_mudou": "A Sociedade Brasileira de Pediatria publicou em 24/11 um documento científico novo sobre CMV no recém-nascido, cobrindo a infecção congênita e a adquirida após o nascimento. A página pública destaca que o CMV congênito é a infecção viral intrauterina mais prevalente e causa importante de sequela neurológica permanente. O texto completo é restrito a sócios e não pôde ser lido, então as recomendações detalhadas precisam ser conferidas antes de gravar.",
+      "prova": "O CMV é a infecção congênita viral mais comum e uma causa importante de sequela neurológica permanente, com destaque para a perda auditiva neurossensorial.",
+      "roteiro": "Qual é a infecção viral congênita mais comum? A Sociedade Brasileira de Pediatria acabou de lançar um documento científico novo sobre citomegalovírus no recém-nascido. O documento trata da infecção congênita, que vem da mãe durante a gestação, e da infecção pós-natal, que o bebê pega depois de nascer. E reforça o ponto que mais cai: o CMV congênito é a infecção viral intrauterina mais prevalente e uma causa importante de sequela neurológica permanente. Na prova, pense em CMV no recém-nascido com microcefalia, calcificações cerebrais e perda auditiva, e lembre que muitos bebês nascem sem sintoma nenhum. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.sbp.com.br/citomegalovirus-cmv-na-neonatologia-infeccao-congenita-pos-natal-e-implicacoes-clinicas/"
+    },
+    {
+      "area": "Urologia e Oncologia",
+      "fonte": "NICE 2026 (TA1210)",
+      "titulo": "NICE recomenda pembrolizumabe com enfortumabe vedotina antes e depois da cistectomia no câncer de bexiga músculo-invasivo",
+      "o_que_mudou": "Antes, no sistema inglês, quem podia receber cisplatina fazia quimioterapia neoadjuvante com gencitabina e cisplatina (com ou sem durvalumabe), e quem não podia ia direto para a cirurgia, com nivolumabe ou suporte depois. Agora o NICE recomenda, em 25/11, a combinação pembrolizumabe com enfortumabe vedotina como opção neoadjuvante, mantida como adjuvante após a cistectomia radical, para os dois grupos. Os estudos mostraram mais tempo sem progressão e maior sobrevida do que cirurgia isolada e do que gencitabina com cisplatina.",
+      "prova": "No câncer de bexiga músculo-invasivo, o tratamento padrão é cistectomia radical com terapia sistêmica neoadjuvante, e a elegibilidade à cisplatina define o esquema.",
+      "roteiro": "O tratamento do câncer de bexiga que invade o músculo está mudando. O NICE, o órgão que avalia tratamentos na Inglaterra, recomendou nesta semana a combinação de pembrolizumabe, uma imunoterapia, com enfortumabe vedotina, um anticorpo ligado a quimioterápico, antes e depois da cistectomia radical. Antes, só quem tolerava cisplatina fazia tratamento antes da cirurgia. Agora a combinação serve também para quem não pode receber cisplatina, e os estudos mostraram mais tempo sem progressão e mais sobrevida. Para a prova, guarde a base: tumor músculo-invasivo é tratado com cistectomia radical e terapia sistêmica antes da cirurgia, e o que define o esquema é poder ou não usar cisplatina. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.nice.org.uk/guidance/ta1210/chapter/1-Recommendations"
+    },
+    {
+      "area": "Ginecologia e Obstetrícia (Psiquiatria perinatal)",
+      "fonte": "NICE 2026 (TA1209)",
+      "titulo": "NICE não recomenda zuranolona para depressão pós-parto moderada ou grave",
+      "o_que_mudou": "A zuranolona é um remédio oral de curso único de 14 dias para depressão pós-parto. O NICE avaliou o medicamento e, em 25/11, decidiu que ele não deve ser usado no sistema público inglês: os estudos mostram melhora dos sintomas no dia 15 em relação ao placebo, com possível benefício até o dia 45, mas é incerto se o efeito dura além disso, e o custo-efetividade ficou acima do limite. O tratamento habitual continua sendo antidepressivo, psicoterapia de alta intensidade (como terapia cognitivo-comportamental) ou os dois.",
+      "prova": "Depressão pós-parto moderada a grave se trata com antidepressivo e/ou psicoterapia; diferencie de baby blues (transitório, até cerca de 2 semanas) e de psicose puerperal (emergência).",
+      "roteiro": "Tem remédio novo para depressão pós-parto, mas a Inglaterra disse não. O NICE avaliou a zuranolona, um comprimido tomado por 14 dias, e decidiu que ela não deve ser usada no sistema público inglês. Os estudos mostraram melhora dos sintomas na segunda semana, com algum efeito até o dia 45, mas não dá para saber se o benefício dura, e o custo ficou alto demais. Então o tratamento continua o mesmo: antidepressivo, psicoterapia como a terapia cognitivo-comportamental, ou os dois. Na prova, o que cai é diferenciar: baby blues é transitório e melhora em cerca de duas semanas; depressão pós-parto dura mais e precisa de tratamento; psicose puerperal é emergência. Toda segunda tem o Radar de Diretrizes, link na bio.",
+      "link": "https://www.nice.org.uk/guidance/ta1209/chapter/1-Recommendations"
+    }
+  ],
+  "fontes_conferidas": 34,
+  "fontes_que_nao_abriram": [
+    "ANVISA (página de alertas sanitários não carregou; notícias conferidas pela API do portal)",
+    "Diário Oficial da União (instável, erro 502; lido pela lista JSON, edição de 24/11 possivelmente incompleta)",
+    "SBEM (erro 503)",
+    "FEBRASGO (lista de notícias não carregou)",
+    "ACOG (erro 402)",
+    "AAP (publications.aap.org erro 403)",
+    "ESMO (página sem conteúdo / 404)",
+    "NCCN (erro 403)",
+    "EASL (erro 404)"
+  ],
+  "blog": {
+    "importante": false,
+    "motivo": "Nenhum item muda conduta cobrada na prova: a nota do MS só orienta a leitura da nova seringa, o documento da SBP não pôde ser lido na íntegra e as decisões do NICE são avaliações de incorporação no sistema inglês."
+  }
+}
