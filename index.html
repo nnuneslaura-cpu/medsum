@@ -1,0 +1,14 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clara · ligar o WhatsApp</title>
+<style>body{font:16px system-ui;max-width:560px;margin:40px auto;padding:0 16px;background:#faf7f2;color:#222}button{font:600 17px system-ui;background:#1f7a4d;color:#fff;border:0;border-radius:10px;padding:14px 22px;cursor:pointer}pre{white-space:pre-wrap;background:#fff;border:1px solid #ddd;border-radius:8px;padding:10px;font-size:13px}</style></head><body>
+<h1>Clara · ligar o WhatsApp da MedSum</h1>
+<p>1. Clique no botão. 2. Na janela da Meta, escolha o portfólio <b>MedSum</b> e a opção de <b>usar o número que já está no app WhatsApp Business</b>. 3. Leia o QR com o celular (WhatsApp Business → Configurações → Dispositivos conectados ou o aviso que aparecer). Nunca confirme por SMS ou ligação.</p>
+<button id="b">Ligar o WhatsApp à Clara</button>
+<h3>Resultado</h3><pre id="r">(ainda nada)</pre>
+<script>
+const out=[];const log=(x)=>{out.push(typeof x==='string'?x:JSON.stringify(x));document.getElementById('r').textContent=out.join('\n');};
+window.addEventListener('message',(e)=>{if(!/facebook\.com$/.test(new URL(e.origin).hostname))return;try{const d=JSON.parse(e.data);if(d.type==='WA_EMBEDDED_SIGNUP'){const s={...d};log({evento:s.event,dados:s.data});}}catch(_){}});
+window.fbAsyncInit=function(){FB.init({appId:'1464669455859467',autoLogAppEvents:true,xfbml:true,version:'v23.0'});log('SDK pronto.');};
+document.getElementById('b').onclick=()=>{FB.login((resp)=>{log(resp&&resp.authResponse&&resp.authResponse.code?'Cadastro concluído (código recebido).':('Janela fechada: '+(resp&&resp.status)));},{config_id:'2076602392992033',response_type:'code',override_default_response_type:true,extras:{setup:{},featureType:'whatsapp_business_app_onboarding',sessionInfoVersion:'3'}});};
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js"></script>
+</body></html>
