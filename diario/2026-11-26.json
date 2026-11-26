@@ -1,0 +1,87 @@
+{
+ "data": "2026-11-26",
+ "gerado_em": "2026-11-26T07:27:59-03:00",
+ "itens": [
+  {
+   "area": "Infectologia",
+   "fonte": "OMS 2026",
+   "titulo": "OMS recomenda zoliflodacina oral como nova opção para gonorreia não complicada",
+   "o_que_mudou": "Antes, a OMS tinha uma única primeira linha para gonorreia: ceftriaxona 1 g IM em dose única, que continua sendo a primeira escolha. Agora, uma diretriz interina publicada em 25/11 inclui a zoliflodacina 3 g via oral em dose única como opção adicional (recomendação condicional) para gonorreia genital ou urinária não complicada em adolescentes e adultos; ela não serve para infecção de garganta, reto, casos graves nem gestantes. A gepotidacina não foi recomendada para uso geral, e o relatório EGASP 2026 mostrou resistência à ceftriaxona em 4 de 10 países e à azitromicina em 8.",
+   "prova": "Ceftriaxona IM segue como primeira linha; a zoliflodacina oral é alternativa só para infecção genital ou urinária não complicada, fora da gestação e sem cobrir faringe ou reto.",
+   "roteiro": "A gonorreia ganhou um remédio novo por via oral, e isso pode cair na sua prova. A OMS publicou nesta semana uma diretriz interina que inclui a zoliflodacina, 3 gramas por via oral em dose única, como opção adicional para gonorreia genital ou urinária não complicada em adolescentes e adultos. Mas atenção: a primeira linha não mudou. Continua sendo a ceftriaxona intramuscular em dose única. E a zoliflodacina tem limites claros: não vale para infecção de garganta, de reto, para casos graves nem para gestantes. Por que isso importa? Porque o mesmo relatório mostrou resistência à ceftriaxona em 4 de 10 países vigiados e à azitromicina em 8. Na prova, lembre: ceftriaxona é a base, e a opção oral é só para o caso simples, fora da gravidez. Toda segunda tem o Radar de Diretrizes, link na bio.",
+   "link": "https://www.who.int/news/item/25-11-2026-who-recommends-new-oral-treatment-option-for-gonorrhoea-and-reports-new-data-on-antimicrobial-resistance"
+  },
+  {
+   "area": "Infectologia e Preventiva",
+   "fonte": "OPAS 2026",
+   "titulo": "Alerta epidemiológico da OPAS: aumento de casos de mpox nas Américas, puxado pelo Brasil",
+   "o_que_mudou": "A OPAS emitiu em 24/11 um alerta porque os casos de mpox voltaram a subir desde a semana epidemiológica 39, principalmente no Brasil, que tem 1.325 casos e 1 óbito em 2026, com detecção crescente do clado Ib na região. Nas Américas foram 3.269 casos e 4 óbitos em 2026; dos 114 óbitos com status de HIV conhecido, 111 (97%) eram em pessoas com HIV. A OPAS pede reforço da vigilância genômica, investigação rápida de casos e vacinação dos grupos de maior risco. É alerta, não diretriz nova.",
+   "prova": "Mpox grave e óbito se concentram em pessoas com HIV (97% dos óbitos com status conhecido); a resposta é vigilância, investigação rápida e vacinação dirigida aos grupos de risco.",
+   "roteiro": "A mpox voltou a crescer, e o Brasil está no centro disso. A Organização Pan-Americana da Saúde soltou um alerta nesta semana: os casos sobem desde setembro, e o Brasil já soma 1.325 casos e 1 óbito em 2026. Também cresce a detecção do clado Ib na região. Um número que você precisa guardar: dos óbitos por mpox com status de HIV conhecido, 97% eram em pessoas vivendo com HIV. O que a OPAS recomenda? Reforçar a vigilância, inclusive genômica, investigar rápido os casos suspeitos e vacinar os grupos de maior risco, inclusive viajantes desses grupos. Na prova, pense em mpox diante de lesões de pele com linfonodomegalia em paciente de risco, lembre da notificação e da ligação com HIV. Toda segunda tem o Radar de Diretrizes, link na bio.",
+   "link": "https://www.paho.org/en/news/25-11-2026-paho-calls-stronger-surveillance-amid-increase-mpox-cases-americas"
+  },
+  {
+   "area": "Endocrinologia",
+   "fonte": "NICE 2026 (TA924)",
+   "titulo": "NICE atualiza a recomendação da tirzepatida no diabetes tipo 2 e alinha à diretriz NG28",
+   "o_que_mudou": "Em 26/11, o NICE reescreveu a recomendação 1.1 do TA924 para seguir a diretriz de DM2 em adultos (NG28). Agora a tirzepatida pode ser usada como add-on à metformina com um inibidor de SGLT-2 (ou só ao iSGLT2 se a metformina for contraindicada ou não tolerada) em adultos com DM2 de início precoce ou com obesidade que, após pelo menos 3 meses desse tratamento inicial, precisam de outro remédio para atingir a meta glicêmica.",
+   "prova": "O tratamento inicial do DM2 no NICE já combina metformina com iSGLT2; agonistas de GLP-1 e tirzepatida entram como próximo passo, sobretudo em obesidade.",
+   "roteiro": "A tirzepatida mudou de lugar no tratamento do diabetes tipo 2 no Reino Unido. O NICE atualizou nesta semana a recomendação para alinhar com a sua diretriz de diabetes. Agora ela entra como acréscimo à metformina mais um inibidor de SGLT-2, ou só ao SGLT-2 se a metformina não puder ser usada, em dois perfis de adulto: quem tem diabetes de início precoce e quem tem obesidade e, depois de pelo menos 3 meses desse tratamento inicial, ainda não chegou na meta glicêmica. O recado para a prova é a lógica do tratamento: metformina com inibidor de SGLT-2 cedo, e o agonista de GLP-1 ou a tirzepatida como próximo degrau, principalmente no paciente com obesidade. Toda segunda tem o Radar de Diretrizes, link na bio.",
+   "link": "https://www.nice.org.uk/guidance/ta924/chapter/1-Recommendations"
+  },
+  {
+   "area": "Oncologia e Mastologia",
+   "fonte": "ESMO 2026",
+   "titulo": "ESMO publica nova diretriz de câncer de mama inicial (diagnóstico, tratamento e seguimento)",
+   "o_que_mudou": "A ESMO publicou on-line em 25/11, na Annals of Oncology, a nova Clinical Practice Guideline de câncer de mama inicial, que substitui a versão de 2024. O texto completo não abriu hoje (acesso bloqueado) e o registro oficial não traz resumo, então ainda não dá para dizer quais recomendações mudaram; vale conferir antes de gravar.",
+   "prova": "Câncer de mama inicial segue cobrado por subtipo (receptor hormonal, HER2, triplo-negativo) para definir o tratamento sistêmico; confira na nova diretriz se houve mudança.",
+   "roteiro": "Saiu a nova diretriz europeia de câncer de mama inicial. A ESMO publicou nesta semana, na Annals of Oncology, a atualização da sua diretriz de diagnóstico, tratamento e seguimento, substituindo a versão de 2024. Os detalhes ainda estão sendo conferidos, então guarde o principal: na prova, o câncer de mama inicial é sempre organizado por subtipo. Receptor hormonal positivo, HER2 positivo e triplo-negativo têm caminhos diferentes de tratamento sistêmico, antes ou depois da cirurgia. Quando a banca descrever a paciente, a primeira pergunta que você faz é qual é o subtipo. Assim que eu ler o documento completo, trago o que mudou. Toda segunda tem o Radar de Diretrizes, link na bio.",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43085660/"
+  }
+ ],
+ "fontes_conferidas": 36,
+ "fontes_que_nao_abriram": [
+  "SBEM (erro 503 / conexão recusada)",
+  "NCCN (erro 403; página só por JavaScript)",
+  "Diário Oficial da União (edição de 26/11 veio vazia e a busca deu erro 502; 24 e 25/11 conferidas pela lista JSON)",
+  "ESMO (site só por JavaScript / 404; diretriz conferida pelo PubMed e Crossref)",
+  "EASL (erro 404; conferido pelo PubMed e Crossref)",
+  "AAP (erro 403; conferido pelo PubMed)",
+  "ACOG (notícias com erro 402)",
+  "AHA (erro 403 no site profissional; conferido pelo newsroom, Crossref e PubMed)"
+ ],
+ "blog": {
+  "importante": true,
+  "motivo": "A OMS incluiu um novo tratamento oral (zoliflodacina 3 g dose única) para gonorreia genital ou urinária não complicada, mantendo a ceftriaxona como primeira linha.",
+  "post": {
+   "slug": "oms-2026-gonorreia-zoliflodacina-oral",
+   "titulo": "OMS recomenda zoliflodacina oral como nova opção para tratar gonorreia não complicada",
+   "linha_fina": "Diretriz interina da OMS inclui a zoliflodacina 3 g em dose única por via oral como alternativa para infecção genital ou urinária. A ceftriaxona intramuscular segue como primeira linha.",
+   "chapeu": "Infectologia",
+   "fonte": "OMS 2026",
+   "link_fonte": "https://www.who.int/news/item/25-11-2026-who-recommends-new-oral-treatment-option-for-gonorrhoea-and-reports-new-data-on-antimicrobial-resistance",
+   "tema": "vulvovaginites-ists-e-dip",
+   "doenca": null,
+   "secoes": [
+    {
+     "titulo": "O que mudou",
+     "texto": "A Organização Mundial da Saúde publicou em 25 de novembro uma diretriz interina com uma nova opção de tratamento para a gonorreia. O antibiótico **zoliflodacina**, por via oral, passa a ser recomendado de forma condicional como opção adicional.\n\nA dose é de **3 g em dose única**, por via oral. A recomendação vale para adolescentes e adultos com gonorreia **não complicada do trato genital e urinário**.\n\nA zoliflodacina não serve para infecção de garganta, infecção do reto nem para casos graves. Com base nas evidências disponíveis, a OMS também não recomenda o remédio na gravidez."
+    },
+    {
+     "titulo": "Antes e agora",
+     "texto": "**Antes:** a OMS recomendava a **ceftriaxona 1 g intramuscular em dose única** como tratamento de primeira linha.\n\n**Agora:** a ceftriaxona continua sendo a primeira linha. A zoliflodacina entra como alternativa oral, restrita aos casos genitais ou urinários não complicados, fora da gestação.\n\nA OMS também avaliou a **gepotidacina**, outro antibiótico oral. Ela não foi recomendada para uso geral. Seu uso pode ser considerado apenas em situações específicas em que a primeira linha não puder ser usada.\n\nA recomendação da OMS não muda sozinha o protocolo brasileiro. No Brasil, até nova publicação do Ministério da Saúde, vale o protocolo de IST vigente."
+    },
+    {
+     "titulo": "Por que a OMS agiu",
+     "texto": "Junto com a diretriz, a OMS divulgou o relatório EGASP 2026, de vigilância da resistência do gonococo em 10 países de 5 regiões.\n\nFoi detectada resistência à **ceftriaxona e à cefixima em 4 países** e à **azitromicina em 8 países**. As maiores proporções de isolados resistentes em um país foram de 16% para a ceftriaxona, 16% para a azitromicina e 47% para a cefixima.\n\nDiante dessa resistência, ter mais de uma opção eficaz ajuda a preservar a ceftriaxona."
+    }
+   ],
+   "na_prova": [
+    "A ceftriaxona 1 g IM em dose única segue como primeira linha da OMS para gonorreia.",
+    "A zoliflodacina 3 g VO em dose única é opção condicional só para gonorreia genital ou urinária não complicada.",
+    "A zoliflodacina não cobre infecção de garganta, reto ou casos graves e não é recomendada na gestação.",
+    "A gepotidacina não foi recomendada para uso geral pela OMS."
+   ]
+  }
+ }
+}
