@@ -24,5 +24,10 @@
  "blog": {
   "importante": false,
   "motivo": "O único item é um posicionamento da SBN que recomenda decisão individualizada sobre a diálise na IRA, sem mudar a conduta já cobrada em prova."
+ },
+ "email": {
+  "status": "enviado",
+  "em": "2026-11-27T07:13:15-03:00",
+  "assunto": "📰 Radar do dia · 27/11: 1 novidade"
  }
 }
