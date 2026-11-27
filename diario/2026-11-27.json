@@ -1,0 +1,28 @@
+{
+ "data": "2026-11-27",
+ "gerado_em": "2026-11-27T07:12:35-03:00",
+ "itens": [
+  {
+   "area": "Nefrologia / Terapia Intensiva",
+   "fonte": "SBN 2026",
+   "titulo": "Posicionamento da SBN sobre quando iniciar e quando interromper a diálise na injúria renal aguda",
+   "o_que_mudou": "A SBN divulgou em 26/11 seu posicionamento (Braz J Nephrol, publicado em 09/11) sobre o suporte renal artificial na IRA. Em vez de defender início precoce ou tardio, recomenda uma decisão individualizada e dinâmica, feita com equipe multidisciplinar, considerando a causa e a evolução da IRA, o quadro clínico e a resposta ao tratamento conservador. Para interromper a diálise, cita como preditores de sucesso, vindos principalmente de estudos observacionais: diurese acima de 400 mL sem diurético ou acima de 2.000 mL/dia com diurético, clearance de creatinina acima de 15 mL/min e ausência de distúrbios eletrolíticos e acidobásicos.",
+   "prova": "Não existe momento fixo para iniciar diálise na IRA fora das indicações de urgência: a decisão é individualizada, e diurese espontânea acima de 400 mL com clearance acima de 15 mL/min sugere que dá para suspender.",
+   "roteiro": "Quando começar e quando parar a diálise na injúria renal aguda? A Sociedade Brasileira de Nefrologia acaba de divulgar um posicionamento sobre isso. Primeiro ponto: a SBN não crava início precoce nem início tardio. A decisão deve ser individualizada e reavaliada o tempo todo, olhando a causa da lesão, a evolução, o estado do paciente e a resposta ao tratamento conservador, sempre com a equipe multidisciplinar. Segundo ponto, o que mais cai: quando parar. Os sinais de que a suspensão deve dar certo são diurese acima de 400 mililitros sem diurético, ou acima de 2 litros por dia com diurético, clearance de creatinina acima de 15 e nenhum distúrbio de eletrólitos ou de ácido e base. Na prova, guarde esses números e lembre que não existe hora fixa para começar. Toda segunda tem o Radar de Diretrizes, link na bio.",
+   "link": "https://www.bjnephrology.org/article/posicionamento-da-sociedade-brasileira-de-nefrologia-sobre-o-inicio-ea-interrupcao-do-suporte-renal-artificial-em-pacientes-com-injuria-renalaguda/"
+  }
+ ],
+ "fontes_conferidas": 32,
+ "fontes_que_nao_abriram": [
+  "Diário Oficial da União (erro 502 em 25, 26 e 27/11; portarias SAES/SECTICS não conferidas)",
+  "NICE (erro 403)",
+  "ACOG (erro 402)",
+  "NCCN (erro 403)",
+  "EASL (erro 404)",
+  "Abertura parcial: AHA (403; ACC abriu), lista de notícias da CONITEC e da ANVISA, notícias da FEBRASGO, site de diretrizes da SBD (403), consensos da SBR (área de associados)"
+ ],
+ "blog": {
+  "importante": false,
+  "motivo": "O único item é um posicionamento da SBN que recomenda decisão individualizada sobre a diálise na IRA, sem mudar a conduta já cobrada em prova."
+ }
+}
